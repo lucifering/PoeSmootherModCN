@@ -2,18 +2,25 @@
 ===================================  
 中文版本PoeSmoother，带MOD特效替换功能  
 
+下载地址：https://github.com/lucifering/PoeSmootherModCN/raw/master/POE%E7%89%B9%E6%95%88%E7%AE%80%E5%8C%96%26DIY%20PoeSmoother%E4%B8%AD%E6%96%87%2BMOD%20V1.0002.zip  
 
+
+或：  
+
+http://pan.baidu.com/s/1hsqT8e4  
+
+
+  
+  
 
 项目基于PoeSmoother：https://github.com/thisTwo/PoeSmoother
+===================================  
 
 **程序需要 Microsoft .NET Framework 4.5 运行环境。**  
 
 **修改前请备份 GGPK 文件**  
 
-**可能会被Ban**  
-
-
-
+**可能会被Ban！！！**  
 
 
 ***1.备份你的 Content.ggpk 文件。***  
