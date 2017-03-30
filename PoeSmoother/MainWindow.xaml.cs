@@ -236,13 +236,13 @@
                 SaveFileDialog saveFileDialog = new SaveFileDialog { FileName = selectedRecord.Name };
                 if (saveFileDialog.ShowDialog() != true) return;
                 selectedRecord.ExtractFile(ggpkPath, saveFileDialog.FileName);
-                MessageBox.Show(string.Format(Settings.Strings["ExportSelectedItem_Successful"], 
-                    selectedRecord.DataLength), Settings.Strings["ExportAllItemsInDirectory_Successful_Caption"], 
+                MessageBox.Show(string.Format(Settings.Strings["ExportSelectedItem_Successful"],
+                    selectedRecord.DataLength), Settings.Strings["ExportAllItemsInDirectory_Successful_Caption"],
                     MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(string.Format(Settings.Strings["ExportSelectedItem_Failed"], ex.Message), 
+                MessageBox.Show(string.Format(Settings.Strings["ExportSelectedItem_Failed"], ex.Message),
                     Settings.Strings["Error_Caption"], MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
@@ -268,12 +268,12 @@
                 {
                     item.ExtractFileWithDirectoryStructure(ggpkPath, exportDirectory);
                 }
-                MessageBox.Show(string.Format(Settings.Strings["ExportAllItemsInDirectory_Successful"], recordsToExport.Count), 
+                MessageBox.Show(string.Format(Settings.Strings["ExportAllItemsInDirectory_Successful"], recordsToExport.Count),
                     Settings.Strings["ExportAllItemsInDirectory_Successful_Caption"], MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(string.Format(Settings.Strings["ExportAllItemsInDirectory_Failed"], ex.Message), 
+                MessageBox.Show(string.Format(Settings.Strings["ExportAllItemsInDirectory_Failed"], ex.Message),
                     Settings.Strings["Error_Caption"], MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
@@ -307,7 +307,7 @@
             }
             catch (Exception ex)
             {
-                MessageBox.Show(string.Format(Settings.Strings["ReplaceItem_Failed"], ex.Message), 
+                MessageBox.Show(string.Format(Settings.Strings["ReplaceItem_Failed"], ex.Message),
                     Settings.Strings["Error_Caption"], MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
@@ -347,7 +347,8 @@
                                 OutputLine(Settings.Strings["MainWindow_VersionCheck_Failed"]); return;
                             }
                         }
-                    } break;
+                    }
+                    break;
                 }
 
                 foreach (var item in zipFile.Entries)
@@ -426,11 +427,12 @@
         }
         private void PoeSmoother_Loaded(object sender, RoutedEventArgs e)
         {
-           
-           // System.IO.Directory.SetCurrentDirectory(System.Windows.Forms.Application.StartupPath);
+
+            // System.IO.Directory.SetCurrentDirectory(System.Windows.Forms.Application.StartupPath);
             OpenFileDialog ofd = new OpenFileDialog
             {
-                CheckFileExists = true, Filter = Settings.Strings["Load_GGPK_Filter"]
+                CheckFileExists = true,
+                Filter = Settings.Strings["Load_GGPK_Filter"]
             };
             // Get InstallLocation From RegistryKey
             if ((ofd.InitialDirectory == null) || (ofd.InitialDirectory == string.Empty))
@@ -447,7 +449,7 @@
                 }
             }
 
-           
+
             // Get Garena PoE
             if ((ofd.InitialDirectory == null) || (ofd.InitialDirectory == string.Empty))
             {
@@ -463,25 +465,25 @@
                 }
             }
 
-           
+
             try
             {
                 if (ofd != null && ofd.ShowDialog() == true)
                 {
-                   
+
                     if (!File.Exists(ofd.FileName))
                     {
-                      
+
                         Close();
                         return;
                     }
                     ggpkPath = ofd.FileName;
-                  
+
                     ReloadGGPK();
                 }
                 else
                 {
-                  
+
                     Close();
                     return;
                 }
@@ -494,25 +496,25 @@
 
                     if (!File.Exists(ofd.FileName))
                     {
-                        
+
                         Close();
                         return;
                     }
                     ggpkPath = ofd.FileName;
-                   
+
                     ReloadGGPK();
                 }
                 else
-                { 
+                {
                     Close();
                     return;
                 }
 
             }
-            
+
             menuItemExport.Header = Settings.Strings["MainWindow_Menu_Export"];
             menuItemReplace.Header = Settings.Strings["MainWindow_Menu_Replace"];
- 
+
         }
         private void treeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
@@ -558,43 +560,300 @@
         }
 
         #region PoeSmoother
-        private void Arc(object sender, RoutedEventArgs e) { Arc(); }
-        private void ArcZero(object sender, RoutedEventArgs e) { ArcZero(); }
-        private void ArcticBreath(object sender, RoutedEventArgs e) { ArcticBreath(); }
-        private void ArcticBreathZero(object sender, RoutedEventArgs e) { ArcticBreathZero(); }
-        private void BallLightning(object sender, RoutedEventArgs e) { BallLightning(); }
-        private void BallLightningZero(object sender, RoutedEventArgs e) { BallLightningZero(); }
-        private void BladeVortex(object sender, RoutedEventArgs e) { BladeVortex(); }
-        private void BladeVortexZero(object sender, RoutedEventArgs e) { BladeVortexZero(); }
-        private void Discharge(object sender, RoutedEventArgs e) { Discharge(); }
-        private void DischargeZero(object sender, RoutedEventArgs e) { DischargeZero(); }
-        private void HeraldOfIce(object sender, RoutedEventArgs e) { HeraldOfIce(); }
-        private void HeraldOfIceZero(object sender, RoutedEventArgs e) { HeraldOfIceZero(); }
-        private void LightningStrike(object sender, RoutedEventArgs e) { LightningStrike(); }
-        private void LightningStrikeZero(object sender, RoutedEventArgs e) { LightningStrikeZero(); }
-        private void OtherSkills(object sender, RoutedEventArgs e) { OtherSkills(); }
-        private void OtherSkillsZero(object sender, RoutedEventArgs e) { OtherSkillsZero(); }
-        private void Bladefall(object sender, RoutedEventArgs e) { Bladefall(); }
-        private void BladefallZero(object sender, RoutedEventArgs e) { BladefallZero(); }
-        private void StormCall(object sender, RoutedEventArgs e) { StormCall(); }
-        private void StormCallZero(object sender, RoutedEventArgs e) { StormCallZero(); }
-        private void WhisperingIce(object sender, RoutedEventArgs e) { WhisperingIce(); }
-        private void WhisperingIceZero(object sender, RoutedEventArgs e) { WhisperingIceZero(); }
+        private void Arc(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Arc/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Arc/restoreDefault/Metadata";
+            ModReplace(
+           sender as CheckBox, RemoveEffects, RestoreDefault
+           );
 
-        private void Particles(object sender, RoutedEventArgs e) { Particles(); }
-        private void Environments(object sender, RoutedEventArgs e) { Environments(); }
-        private void SilentMobs(object sender, RoutedEventArgs e) { SilentMobs(); }
-        private void SilentSkills(object sender, RoutedEventArgs e) { SilentSkills(); }
-        private void UiChanges(object sender, RoutedEventArgs e) { UiChanges(); }
-        private void Micro(object sender, RoutedEventArgs e) { Micro(); }
-        private void OtherEffects(object sender, RoutedEventArgs e) { OtherEffects(); }
-        private void DeadBodies(object sender, RoutedEventArgs e) { DeadBodies(); }
-        private void Custom(object sender, RoutedEventArgs e) { Custom(); }
-        private void SetShaders(object sender, RoutedEventArgs e) { SetShaders(); }
-        private void PrivateEffects(object sender, RoutedEventArgs e) { PrivateEffects(); }
-        private void ZeroEffects(object sender, RoutedEventArgs e) { ZeroEffects(); }
-        private void ZeroParticles(object sender, RoutedEventArgs e) { ZeroParticles(); }
-        private void BreachLeague(object sender, RoutedEventArgs e) { BreachLeague(); }
+        }
+        private void ArcZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Arc/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Arc/restoreDefault/Metadata";
+            ModReplace(
+           sender as CheckBox, RemoveEffects, RestoreDefault
+           );
+        }
+        private void ArcticBreath(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Arctic Breath/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Arctic Breath/restoreDefault/Metadata";
+            ModReplace(
+            sender as CheckBox, RemoveEffects, RestoreDefault
+            );
+
+        }
+        private void ArcticBreathZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Arctic Breath/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Arctic Breath/restoreDefault/Metadata";
+            ModReplace(
+             sender as CheckBox, RemoveEffects, RestoreDefault
+             );
+
+        }
+        private void BallLightning(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Ball Lightning/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Ball Lightning/restoreDefault/Metadata";
+            ModReplace(
+              sender as CheckBox, RemoveEffects, RestoreDefault
+              );
+
+        }
+        private void BallLightningZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Ball Lightning/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Ball Lightning/restoreDefault/Metadata";
+            ModReplace(
+              sender as CheckBox, RemoveEffects, RestoreDefault
+              );
+        }
+        private void BladeVortex(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Blade Vortex/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Blade Vortex/restoreDefault/Metadata";
+            ModReplace(
+               sender as CheckBox, RemoveEffects, RestoreDefault
+               );
+        }
+        private void BladeVortexZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Blade Vortex/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Blade Vortex/restoreDefault/Metadata";
+            ModReplace(
+            sender as CheckBox, RemoveEffects, RestoreDefault
+            );
+        }
+        private void Discharge(object sender, RoutedEventArgs e) {
+
+            const string RemoveEffects = "config/Skills/Discharge/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Discharge/restoreDefault/Metadata";
+            ModReplace(
+             sender as CheckBox, RemoveEffects, RestoreDefault
+             );
+        }
+        private void DischargeZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Discharge/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Discharge/restoreDefault/Metadata";
+            ModReplace(
+              sender as CheckBox, RemoveEffects, RestoreDefault
+              );
+
+        }
+        private void HeraldOfIce(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Herald Of Ice/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Herald Of Ice/restoreDefault/Metadata";
+
+            ModReplace(
+           sender as CheckBox, RemoveEffects, RestoreDefault
+           );
+        }
+        private void HeraldOfIceZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Herald Of Ice/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Herald Of Ice/restoreDefault/Metadata";
+            ModReplace(
+           sender as CheckBox, RemoveEffects, RestoreDefault
+           );
+
+        }
+        private void LightningStrike(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Skills/Lightning Strike/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Lightning Strike/restoreDefault/Metadata";
+            ModReplace(
+            sender as CheckBox, RemoveEffects, RestoreDefault
+            );
+        }
+        private void LightningStrikeZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Lightning Strike/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Lightning Strike/restoreDefault/Metadata";
+            ModReplace(
+             sender as CheckBox, RemoveEffects, RestoreDefault
+             );
+        }
+        private void OtherSkills(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Skills/Other Skills/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Other Skills/restoreDefault/Metadata";
+            ModReplace(
+              sender as CheckBox, RemoveEffects, RestoreDefault
+              );
+        }
+        private void OtherSkillsZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Other Skills/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Other Skills/restoreDefault/Metadata";
+            ModReplace(
+               sender as CheckBox, RemoveEffects, RestoreDefault
+               );
+
+        }
+        private void Bladefall(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Bladefall/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Bladefall/restoreDefault/Metadata";
+            ModReplace(
+               sender as CheckBox, RemoveEffects, RestoreDefault
+               );
+        }
+        private void BladefallZero(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Skills/Bladefall/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Bladefall/restoreDefault/Metadata";
+            ModReplace(
+            sender as CheckBox, RemoveEffects, RestoreDefault
+            );
+        }
+
+
+        private void StormCall(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Storm Call/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Storm Call/restoreDefault/Metadata";
+            ModReplace(
+             sender as CheckBox, RemoveEffects, RestoreDefault
+             );
+        }
+        private void StormCallZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Storm Call/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Storm Call/restoreDefault/Metadata";
+            ModReplace(
+              sender as CheckBox, RemoveEffects, RestoreDefault
+              );
+        }
+        private void WhisperingIce(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/WhisperingIce/removeEffects/Metadata";
+            const string RestoreDefault = "config/Skills/WhisperingIce/restoreDefault/Metadata";
+            ModReplace(
+              sender as CheckBox, RemoveEffects, RestoreDefault
+              );
+
+        }
+        private void WhisperingIceZero(object sender, RoutedEventArgs e) {
+            const string RemoveEffects = "config/Skills/Whispering Ice/zeroEffects/Metadata";
+            const string RestoreDefault = "config/Skills/Whispering Ice/restoreDefault/Metadata";
+            ModReplace(
+               sender as CheckBox, RemoveEffects, RestoreDefault
+               );
+        }
+
+        private void Particles(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Particles/removeEffects/Metadata";
+            const string RestoreDefault = "config/Particles/restoreDefault/Metadata";
+            ModReplace(
+            sender as CheckBox, RemoveEffects, RestoreDefault
+            );
+        }
+        private void Environments(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Environment/removeEffects/Metadata";
+            const string RestoreDefault = "config/Environment/restoreDefault/Metadata";
+            ModReplace(
+            sender as CheckBox, RemoveEffects, RestoreDefault
+            );
+        }
+        private void SilentMobs(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Sounds/SilentMonsters/removeEffects/Metadata";
+            const string RestoreDefault = "config/Sounds/SilentMonsters/restoreDefault/Metadata";
+            ModReplace(
+            sender as CheckBox, RemoveEffects, RestoreDefault
+            );
+
+
+        }
+        private void SilentSkills(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Sounds/SilentSkills/removeEffects/Metadata";
+            const string RestoreDefault = "config/Sounds/SilentSkills/restoreDefault/Metadata";
+            ModReplace(
+          sender as CheckBox, RemoveEffects, RestoreDefault
+          );
+
+        }
+        private void UiChanges(object sender, RoutedEventArgs e)
+        {
+            const string ReplaceUiFiles = "config/UiChanges/replaceUiFiles/Art";
+            const string RestoreDefault = "config/UiChanges/restoreDefault/Art";
+            ModReplace(
+              sender as CheckBox, ReplaceUiFiles, RestoreDefault
+              );
+
+        }
+        private void Micro(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Micro/removeEffects/Metadata";
+            const string RestoreDefault = "config/Micro/restoreDefault/Metadata";
+            ModReplace(
+            sender as CheckBox, RemoveEffects, RestoreDefault
+            );
+
+        }
+        private void OtherEffects(object sender, RoutedEventArgs e)
+        {
+
+            const string RemoveEffects = "config/OtherEffects/removeEffects/Metadata";
+            const string RestoreDefault = "config/OtherEffects/restoreDefault/Metadata";
+            ModReplace(
+             sender as CheckBox, RemoveEffects, RestoreDefault
+             );
+        }
+        private void DeadBodies(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/DeadBodies/removeEffects/Metadata";
+            const string RestoreDefault = "config/DeadBodies/restoreDefault/Metadata";
+            ModReplace(
+               sender as CheckBox, RemoveEffects, RestoreDefault
+               );
+
+        }
+        private void Custom(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Custom/removeEffects/Metadata";
+            const string RestoreDefault = "config/Custom/restoreDefault/Metadata";
+            ModReplace(
+             sender as CheckBox, RemoveEffects, RestoreDefault
+             );
+        }
+        private void SetShaders(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/Shaders/removeEffects/Shaders";
+            const string RestoreDefault = "config/Shaders/restoreDefault/Shaders";
+
+            ModReplace(
+           sender as CheckBox, RemoveEffects, RestoreDefault
+           );
+
+        }
+        private void PrivateEffects(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/PrivateEffects/removeEffects/Metadata";
+            const string RestoreDefault = "config/PrivateEffects/restoreDefault/Metadata";
+            ModReplace(
+           sender as CheckBox, RemoveEffects, RestoreDefault
+           );
+        }
+        private void ZeroEffects(object sender, RoutedEventArgs e)
+        {
+
+            string RemoveEffects = "config/ZeroEffects/removeEffects/Metadata";
+            string RestoreDefault = "config/ZeroEffects/restoreDefault/Metadata";
+            ModReplace(
+             sender as CheckBox, RemoveEffects, RestoreDefault
+             );
+        }
+        private void ZeroParticles(object sender, RoutedEventArgs e)
+        {
+
+            const string RemoveEffects = "config/ZeroParticles/removeEffects/Shaders";
+            const string RestoreDefault = "config/ZeroParticles/restoreDefault/Shaders";
+            ModReplace(
+              sender as CheckBox, RemoveEffects, RestoreDefault
+              );
+        }
+        private void BreachLeague(object sender, RoutedEventArgs e)
+        {
+            const string RemoveEffects = "config/BreachLeague/removeEffects/Metadata";
+            const string RestoreDefault = "config/BreachLeague/restoreDefault/Metadata";
+            ModReplace(
+              sender as CheckBox, RemoveEffects, RestoreDefault
+              );
+
+        }
 
         #region UI界面
 
@@ -603,7 +862,7 @@
             const string NewEffects = "config/MOD/UIGoddess1/newEffects/Art";
             const string RestoreDefault = "config/MOD/UIGoddess1/restoreDefault/Art";
             ModReplace(
-                modUI1.IsChecked, NewEffects, RestoreDefault, modUI1.Content.ToString()
+               sender as CheckBox, NewEffects, RestoreDefault
                 );
         }
         private void Mod_UI_Goddess2(object sender, RoutedEventArgs e)
@@ -612,16 +871,16 @@
             const string NewEffects = "config/MOD/UIGoddess2/newEffects/Art";
             const string RestoreDefault = "config/MOD/UIGoddess2/restoreDefault/Art";
             ModReplace(
-                modUI2.IsChecked, NewEffects, RestoreDefault, modUI2.Content.ToString()
-                );
+                sender as CheckBox, NewEffects, RestoreDefault
+                 );
         }
         private void Mod_UI_FemaleWarrior(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/UIFemaleWarrior/newEffects/Art";
             const string RestoreDefault = "config/MOD/UIFemaleWarrior/restoreDefault/Art";
             ModReplace(
-                modUI3.IsChecked, NewEffects, RestoreDefault, modUI3.Content.ToString()
-                );
+                sender as CheckBox, NewEffects, RestoreDefault
+                 );
         }
 
 
@@ -634,8 +893,8 @@
             const string NewEffects = "config/MOD/CharacterAdventurer1/newEffects/Art";
             const string RestoreDefault = "config/MOD/CharacterAdventurer1/restoreDefault/Art";
             ModReplace(
-              modChar1.IsChecked, NewEffects, RestoreDefault, modChar1.Content.ToString()
-              );
+               sender as CheckBox, NewEffects, RestoreDefault
+                );
         }
 
         private void Mod_Char_Witch1(object sender, RoutedEventArgs e)
@@ -643,8 +902,8 @@
             const string NewEffects = "config/MOD/CharacterWitch1/newEffects/Art";
             const string RestoreDefault = "config/MOD/CharacterWitch1/restoreDefault/Art";
             ModReplace(
-              modChar2.IsChecked, NewEffects, RestoreDefault, modChar2.Content.ToString()
-              );
+               sender as CheckBox, NewEffects, RestoreDefault
+                );
         }
 
         private void Mod_Char_Witch2(object sender, RoutedEventArgs e)
@@ -652,8 +911,8 @@
             const string NewEffects = "config/MOD/CharacterWitch2/newEffects/Art";
             const string RestoreDefault = "config/MOD/CharacterWitch2/restoreDefault/Art";
             ModReplace(
-              modChar3.IsChecked, NewEffects, RestoreDefault, modChar3.Content.ToString()
-              );
+                sender as CheckBox, NewEffects, RestoreDefault
+                 );
         }
 
         private void Mod_Char_EssenceWings(object sender, RoutedEventArgs e)
@@ -661,11 +920,11 @@
             const string NewEffects = "config/MOD/CharacterEssenceWings/newEffects/Metadata";
             const string RestoreDefault = "config/MOD/CharacterEssenceWings/restoreDefault/Metadata";
             ModReplace(
-              modChar4.IsChecked, NewEffects, RestoreDefault, modChar4.Content.ToString()
-              );
+               sender as CheckBox, NewEffects, RestoreDefault
+                );
         }
 
-        
+
         #endregion
 
         #region 特效修改
@@ -681,19 +940,19 @@
             const string NewEffects = "config/MOD/FireStrom2start/newEffects/Art";
             const string RestoreDefault = "config/MOD/FireStrom2start/restoreDefault/Art";
             ModReplace(
-              modSkill1.IsChecked, NewEffects, RestoreDefault, modSkill1.Content.ToString()
-              );
+                 sender as CheckBox, NewEffects, RestoreDefault
+                  );
         }
 
-      
+
 
         private void SpectralThrow2Purple(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/SpectralThrow2Purple/newEffects/Art";
             const string RestoreDefault = "config/MOD/SpectralThrow2Purple/restoreDefault/Art";
             ModReplace(
-              modSkill3.IsChecked, NewEffects, RestoreDefault, modSkill3.Content.ToString()
-              );
+                 sender as CheckBox, NewEffects, RestoreDefault
+                  );
         }
 
         private void Discipline2IcefireColor(object sender, RoutedEventArgs e)
@@ -701,29 +960,30 @@
             string NewEffects = "";
             string RestoreDefault = "";
 
-            switch (modSkill4.IsChecked) {
+            switch (modSkill4.IsChecked)
+            {
                 case true:
 
-                      NewEffects = "config/MOD/Discipline2IcefireColor/newEffects/Metadata";
-                      RestoreDefault = "config/MOD/Discipline2IcefireColor/restoreDefault/Metadata";
+                    NewEffects = "config/MOD/Discipline2IcefireColor/newEffects/Metadata";
+                    RestoreDefault = "config/MOD/Discipline2IcefireColor/restoreDefault/Metadata";
                     ModReplace(
-                      modSkill4.IsChecked, NewEffects, RestoreDefault, modSkill4.Content.ToString()
-                      );
-                     NewEffects = "config/MOD/Discipline2IcefireColor/newEffects/Art";
-                     RestoreDefault = "config/MOD/Discipline2IcefireColor/restoreDefault/Metadata";
+                   sender as CheckBox, NewEffects, RestoreDefault
+                    );
+                    NewEffects = "config/MOD/Discipline2IcefireColor/newEffects/Art";
+                    RestoreDefault = "config/MOD/Discipline2IcefireColor/restoreDefault/Metadata";
                     ModReplace(
-                      modSkill4.IsChecked, NewEffects, RestoreDefault, modSkill4.Content.ToString()
-                      );
+                   sender as CheckBox, NewEffects, RestoreDefault
+                    );
                     break;
                 case false:
                     NewEffects = "config/MOD/Discipline2IcefireColor/newEffects/Art";
                     RestoreDefault = "config/MOD/Discipline2IcefireColor/restoreDefault/Metadata";
                     ModReplace(
-                      modSkill4.IsChecked, NewEffects, RestoreDefault, modSkill4.Content.ToString()
-                      );
+                   sender as CheckBox, NewEffects, RestoreDefault
+                    );
                     break;
             }
-          
+
         }
 
         private void Clarity2IcefireColor(object sender, RoutedEventArgs e)
@@ -738,57 +998,57 @@
                     NewEffects = "config/MOD/Clarity2IcefireColor/newEffects/Metadata";
                     RestoreDefault = "config/MOD/Clarity2IcefireColor/restoreDefault/Metadata";
                     ModReplace(
-                      modSkill4_2.IsChecked, NewEffects, RestoreDefault, modSkill4_2.Content.ToString()
-                      );
+                    sender as CheckBox, NewEffects, RestoreDefault
+                     );
                     NewEffects = "config/MOD/Clarity2IcefireColor/newEffects/Art";
                     RestoreDefault = "config/MOD/Clarity2IcefireColor/restoreDefault/Metadata";
                     ModReplace(
-                      modSkill4_2.IsChecked, NewEffects, RestoreDefault, modSkill4_2.Content.ToString()
-                      );
+                    sender as CheckBox, NewEffects, RestoreDefault
+                     );
                     break;
                 case false:
                     NewEffects = "config/MOD/Clarity2IcefireColor/newEffects/Art";
                     RestoreDefault = "config/MOD/Clarity2IcefireColor/restoreDefault/Metadata";
                     ModReplace(
-                      modSkill4_2.IsChecked, NewEffects, RestoreDefault, modSkill4_2.Content.ToString()
-                      );
+                    sender as CheckBox, NewEffects, RestoreDefault
+                     );
                     break;
             }
 
         }
-        
+
 
         private void GeraldofIce2Ice(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/GeraldofIce2Ice/newEffects/Metadata";
             const string RestoreDefault = "config/MOD/GeraldofIce2Ice/restoreDefault/Metadata";
             ModReplace(
-              modSkill5.IsChecked, NewEffects, RestoreDefault, modSkill5.Content.ToString()
-              );
+            sender as CheckBox, NewEffects, RestoreDefault
+             );
         }
         private void GeraldofIce2Purple(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/GeraldofIce2Purple/newEffects/Metadata";
             const string RestoreDefault = "config/MOD/GeraldofIce2Purple/restoreDefault/Metadata";
             ModReplace(
-              modSkill6.IsChecked, NewEffects, RestoreDefault, modSkill6.Content.ToString()
-              );
+            sender as CheckBox, NewEffects, RestoreDefault
+             );
         }
         private void GeraldofIce2Fire(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/GeraldofIce2Fire/newEffects/Metadata";
             const string RestoreDefault = "config/MOD/GeraldofIce2Fire/restoreDefault/Metadata";
             ModReplace(
-              modSkill7.IsChecked, NewEffects, RestoreDefault, modSkill7.Content.ToString()
-              );
+            sender as CheckBox, NewEffects, RestoreDefault
+             );
         }
         private void GeraldofIce2Thunder(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/GeraldofIce2Thunder/newEffects/Metadata";
             const string RestoreDefault = "config/MOD/GeraldofIce2Thunder/restoreDefault/Metadata";
             ModReplace(
-              modSkill8.IsChecked, NewEffects, RestoreDefault, modSkill8.Content.ToString()
-              );
+            sender as CheckBox, NewEffects, RestoreDefault
+             );
         }
         //
         private void EtherealKnivew2DarkGreen(object sender, RoutedEventArgs e)
@@ -796,37 +1056,37 @@
             const string NewEffects = "config/MOD/EtherealKnivew2DarkGreen/newEffects/Metadata";
             const string RestoreDefault = "config/MOD/EtherealKnivew2DarkGreen/restoreDefault/Metadata";
             ModReplace(
-              modSkill9.IsChecked, NewEffects, RestoreDefault, modSkill9.Content.ToString()
-              );
+            sender as CheckBox, NewEffects, RestoreDefault
+             );
         }
-       
+
         private void FireStrom2BrundCity(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/FireStrom2BrundCity/newEffects/Metadata";
             const string RestoreDefault = "config/MOD/FireStrom2BrundCity/restoreDefault/Metadata";
             ModReplace(
-              modSkill11.IsChecked, NewEffects, RestoreDefault, modSkill11.Content.ToString()
-              );
+            sender as CheckBox, NewEffects, RestoreDefault
+             );
         }
-        
+
         private void Discharge2Flare(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/Discharge2Flare/newEffects/Metadata";
             const string RestoreDefault = "config/MOD/Discharge2Flare/restoreDefault/Metadata";
             ModReplace(
-              modSkill14.IsChecked, NewEffects, RestoreDefault, modSkill14.Content.ToString()
-              );
+            sender as CheckBox, NewEffects, RestoreDefault
+             );
         }
         private void Arc2Red(object sender, RoutedEventArgs e)
         {
             const string NewEffects = "config/MOD/Arc2Red/newEffects/Art";
             const string RestoreDefault = "config/MOD/Arc2Red/restoreDefault/Art";
             ModReplace(
-              modSkill15.IsChecked, NewEffects, RestoreDefault, modSkill15.Content.ToString()
-              );
+            sender as CheckBox, NewEffects, RestoreDefault
+             );
         }
 
-        
+
         #endregion
         //private void button_Click(object sender, RoutedEventArgs e)
         //{
@@ -869,398 +1129,25 @@
         //}
 
         #region skills
-        private void Arc()
-        {
-            
-            const string RemoveEffects = "config/Skills/Arc/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Arc/restoreDefault/Metadata";
-            ModReplace(
-              arc.IsChecked, RemoveEffects, RestoreDefault, arc.Content.ToString()
-              );
-             
-        }
-        private void ArcZero()
-        {
-            
-            const string RemoveEffects = "config/Skills/Arc/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Arc/restoreDefault/Metadata";
-            ModReplace(
-             arcZero.IsChecked, RemoveEffects, RestoreDefault, arcZero.Content.ToString()
-             );
-
-           
-        }
-        private void ArcticBreath()
-        {
-            
-            const string RemoveEffects = "config/Skills/Arctic Breath/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Arctic Breath/restoreDefault/Metadata";
-            ModReplace(
-             arcticBreath.IsChecked, RemoveEffects, RestoreDefault, arcticBreath.Content.ToString()
-             );
-
-             
-        }
-        private void ArcticBreathZero()
-        {
-           
-            const string RemoveEffects = "config/Skills/Arctic Breath/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Arctic Breath/restoreDefault/Metadata";
-            ModReplace(
-            arcticBreathZero.IsChecked, RemoveEffects, RestoreDefault, arcticBreathZero.Content.ToString()
-            );
-
-             
-        }
-        private void BallLightning()
-        {
-             
-            const string RemoveEffects = "config/Skills/Ball Lightning/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Ball Lightning/restoreDefault/Metadata";
-            ModReplace(
-           ballLightning.IsChecked, RemoveEffects, RestoreDefault, ballLightning.Content.ToString()
-           );
-             
-        }
-        private void BallLightningZero()
-        {
-             
-            const string RemoveEffects = "config/Skills/Ball Lightning/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Ball Lightning/restoreDefault/Metadata";
-
-            ModReplace(
-          ballLightningZero.IsChecked, RemoveEffects, RestoreDefault, ballLightningZero.Content.ToString()
-          );
-
-             
-        }
-        private void Bladefall()
-        {
-            
-            const string RemoveEffects = "config/Skills/Bladefall/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Bladefall/restoreDefault/Metadata";
-            ModReplace(
-             bladefall.IsChecked, RemoveEffects, RestoreDefault, bladefall.Content.ToString()
-             ); 
-        }
-        private void BladefallZero()
-        {
-             
-            const string RemoveEffects = "config/Skills/Bladefall/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Bladefall/restoreDefault/Metadata";
-            ModReplace(
-            bladefallZero.IsChecked, RemoveEffects, RestoreDefault, bladefallZero.Content.ToString()
-            ); 
-        }
-        private void BladeVortex()
-        {
-            
-            const string RemoveEffects = "config/Skills/Blade Vortex/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Blade Vortex/restoreDefault/Metadata";
-            ModReplace(
-           bladeVortex.IsChecked, RemoveEffects, RestoreDefault, bladeVortex.Content.ToString()
-           ); 
-        }
-        private void BladeVortexZero()
-        {
-            
-            const string RemoveEffects = "config/Skills/Blade Vortex/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Blade Vortex/restoreDefault/Metadata";
-            ModReplace(
-              bladeVortexZero.IsChecked, RemoveEffects, RestoreDefault, bladeVortexZero.Content.ToString()
-              ); 
-        }
-        private void Discharge()
-        {
-            
-            const string RemoveEffects = "config/Skills/Discharge/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Discharge/restoreDefault/Metadata";
-            ModReplace(
-             discharge.IsChecked, RemoveEffects, RestoreDefault, discharge.Content.ToString()
-             ); 
-        }
-        private void DischargeZero()
-        {
-            
-            const string RemoveEffects = "config/Skills/Discharge/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Discharge/restoreDefault/Metadata";
-            ModReplace(
-             dischargeZero.IsChecked, RemoveEffects, RestoreDefault, dischargeZero.Content.ToString()
-             ); 
-        }
-        private void HeraldOfIce()
-        {
-           
-            const string RemoveEffects = "config/Skills/Herald Of Ice/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Herald Of Ice/restoreDefault/Metadata";
-            ModReplace(
-             heraldOfIce.IsChecked, RemoveEffects, RestoreDefault, heraldOfIce.Content.ToString()
-             ); 
-        }
-        private void HeraldOfIceZero()
-        {
-            
-            const string RemoveHeraldEffects = "config/Skills/Herald Of Ice/zeroEffects/Metadata";
-            const string RestoreDefaultHerald = "config/Skills/Herald Of Ice/restoreDefault/Metadata";
-            ModReplace(
-            heraldOfIceZero.IsChecked, RemoveHeraldEffects, RestoreDefaultHerald, heraldOfIceZero.Content.ToString()
-            ); 
-        }
-        private void LightningStrike()
-        {
-           
-            const string RemoveEffects = "config/Skills/Lightning Strike/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Lightning Strike/restoreDefault/Metadata";
-            ModReplace(
-           lightningStrike.IsChecked, RemoveEffects, RestoreDefault, lightningStrike.Content.ToString()
-           ); 
-        }
-        private void LightningStrikeZero()
-        {
-             
-            const string RemoveEffects = "config/Skills/Lightning Strike/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Lightning Strike/restoreDefault/Metadata";
-            ModReplace(
-          lightningStrikeZero.IsChecked, RemoveEffects, RestoreDefault, lightningStrikeZero.Content.ToString()
-          ); 
-        }
-        private void StormCall()
-        {
-           
-            const string RemoveEffects = "config/Skills/Storm Call/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Storm Call/restoreDefault/Metadata";
-            ModReplace(
-         stormCall.IsChecked, RemoveEffects, RestoreDefault, stormCall.Content.ToString()
-         ); 
-        }
-        private void StormCallZero()
-        {
-            
-            const string RemoveEffects = "config/Skills/Storm Call/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Storm Call/restoreDefault/Metadata";
-            ModReplace(
-             stormCallZero.IsChecked, RemoveEffects, RestoreDefault, stormCallZero.Content.ToString()
-             ); 
-        }
-        private void OtherSkills()
-        {
-           
-            const string RemoveEffects = "config/Skills/Other Skills/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Other Skills/restoreDefault/Metadata";
-            ModReplace(
-            otherSkills.IsChecked, RemoveEffects, RestoreDefault, otherSkills.Content.ToString()
-            ); 
-        }
-        private void OtherSkillsZero()
-        {
-             
-
-            const string RemoveEffects = "config/Skills/Other Skills/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Other Skills/restoreDefault/Metadata";
-            ModReplace(
-            otherSkillsZero.IsChecked, RemoveEffects, RestoreDefault, otherSkillsZero.Content.ToString()
-            ); 
-        }
-        private void WhisperingIce()
-        {
-             
-
-            const string RemoveEffects = "config/Skills/WhisperingIce/removeEffects/Metadata";
-            const string RestoreDefault = "config/Skills/WhisperingIce/restoreDefault/Metadata";
-            ModReplace(
-            whisperingIce.IsChecked, RemoveEffects, RestoreDefault, whisperingIce.Content.ToString()
-            ); 
-        }
-        private void WhisperingIceZero()
-        {
-            
-            const string RemoveEffects = "config/Skills/Whispering Ice/zeroEffects/Metadata";
-            const string RestoreDefault = "config/Skills/Whispering Ice/restoreDefault/Metadata";
-            ModReplace(
-           whisperingIceZero.IsChecked, RemoveEffects, RestoreDefault, whisperingIceZero.Content.ToString()
-           ); 
-        }
+      
         #endregion
 
-        private void Particles()
-        {
-            
 
-            const string RemoveEffects = "config/Particles/removeEffects/Metadata";
-            const string RestoreDefault = "config/Particles/restoreDefault/Metadata";
-            ModReplace(
-          particles.IsChecked, RemoveEffects, RestoreDefault, particles.Content.ToString()
-          ); 
-        }
-
-        private void Environments()
-        {
-            
-
-            const string RemoveEffects = "config/Environment/removeEffects/Metadata";
-            const string RestoreDefault = "config/Environment/restoreDefault/Metadata";
-            ModReplace(
-          environments.IsChecked, RemoveEffects, RestoreDefault, environments.Content.ToString()
-          ); 
-        }
-
-        private void SilentMobs()
-        {
-            const string RemoveEffects = "config/Sounds/SilentMonsters/removeEffects/Metadata";
-            const string RestoreDefault = "config/Sounds/SilentMonsters/restoreDefault/Metadata";
-
-            ModReplace(
-             silentMobs.IsChecked, RemoveEffects, RestoreDefault, silentMobs.Content.ToString()
-             );
-            
-        }
-
-        private void SilentSkills()
-        {            
-
-            const string RemoveEffects = "config/Sounds/SilentSkills/removeEffects/Metadata";
-            const string RestoreDefault = "config/Sounds/SilentSkills/restoreDefault/Metadata";
-            ModReplace(
-            silentSkills.IsChecked, RemoveEffects, RestoreDefault, silentSkills.Content.ToString()
-            );
-             
-        }
-
-        private void OtherEffects()
-        {
-           
-            const string RemoveEffects = "config/OtherEffects/removeEffects/Metadata";
-            const string RestoreDefault = "config/OtherEffects/restoreDefault/Metadata";
-            ModReplace(
-          others.IsChecked, RemoveEffects, RestoreDefault, others.Content.ToString()
-          );
-
-
- 
-        }
-
-        private void DeadBodies()
-        {
-             
-            const string RemoveEffects = "config/DeadBodies/removeEffects/Metadata";
-            const string RestoreDefault = "config/DeadBodies/restoreDefault/Metadata";
-            ModReplace(
-             deadBodies.IsChecked, RemoveEffects, RestoreDefault ,deadBodies.Content.ToString()
-            );
- 
-        }
-
-        private void UiChanges()
-        {
-           
-
-            const string ReplaceUiFiles = "config/UiChanges/replaceUiFiles/Art";
-            const string RestoreDefault = "config/UiChanges/restoreDefault/Art";
-            ModReplace(
-             uiChanges.IsChecked, ReplaceUiFiles, RestoreDefault , uiChanges.Content.ToString()
-            );
-             
-        }
-
-        private void Micro()
-        {
-            
-            const string RemoveEffects = "config/Micro/removeEffects/Metadata";
-            const string RestoreDefault = "config/Micro/restoreDefault/Metadata";
-            ModReplace(
-             micro.IsChecked, RemoveEffects, RestoreDefault, micro.Content.ToString()
-            );
-             
-        }
-
-        private void Custom()
-        {
-             
-            const string RemoveEffects = "config/Custom/removeEffects/Metadata";
-            const string RestoreDefault = "config/Custom/restoreDefault/Metadata";
-            ModReplace(
-             custom.IsChecked, RemoveEffects, RestoreDefault, custom.Content.ToString()
-            );
-
-             
-        }
-
-        private void SetShaders()
-        {
-            
-
-            const string RemoveEffects = "config/Shaders/removeEffects/Shaders";
-            const string RestoreDefault = "config/Shaders/restoreDefault/Shaders";
-
-            ModReplace(
-              shaders.IsChecked, RemoveEffects, RestoreDefault, shaders.Content.ToString()
-             );
-
-            
-        }
-
-        private void PrivateEffects()
-        {
-           
-
-            const string RemoveEffects = "config/PrivateEffects/removeEffects/Metadata";
-            const string RestoreDefault = "config/PrivateEffects/restoreDefault/Metadata";
-            ModReplace(
-             skillEffects.IsChecked, RemoveEffects, RestoreDefault, skillEffects.Content.ToString()
-            );
-             
-        }
-
-        private void ZeroEffects()
-        {
-            
-             string RemoveEffects = "config/ZeroEffects/removeEffects/Metadata";
-             string RestoreDefault = "config/ZeroEffects/restoreDefault/Metadata";
-            ModReplace(
-             zeroEffects.IsChecked, RemoveEffects, RestoreDefault, zeroEffects.Content.ToString()
-            );
-
-             
-        }
-
-        private void ZeroParticles()
-        {
-            
-            const string RemoveEffects = "config/ZeroParticles/removeEffects/Shaders";
-            const string RestoreDefault = "config/ZeroParticles/restoreDefault/Shaders";
-            ModReplace(
-               zeroParticles.IsChecked, RemoveEffects, RestoreDefault, zeroParticles.Content.ToString()
-              );
-
-             
-        }
-
-        private void BreachLeague()
-        {
-            
-            const string RemoveEffects = "config/BreachLeague/removeEffects/Metadata";
-            const string RestoreDefault = "config/BreachLeague/restoreDefault/Metadata";
-            ModReplace(
-               breachLeague.IsChecked, RemoveEffects, RestoreDefault, breachLeague.Content.ToString()
-              );
-
-             
-        }
         #endregion
 
         #region MOD
-        private void ModReplace(bool? ischecked, string NewEffects, string RestoreDefault,string showname)
+        private void ModReplace(CheckBox cb, string NewEffects, string RestoreDefault)
         {
 
-          //  Console.WriteLine(">ischecked=" + ischecked);
-           // Console.WriteLine(">NewEffects=" + NewEffects);
+            //  Console.WriteLine(">ischecked=" + ischecked);
+            // Console.WriteLine(">NewEffects=" + NewEffects);
             if (content.IsReadOnly)
             {
                 MessageBox.Show(Settings.Strings["ReplaceItem_Readonly"], Settings.Strings["ReplaceItem_ReadonlyCaption"]);
                 return;
             }
 
-            if (!Directory.Exists(NewEffects) || !Directory.Exists(RestoreDefault)) return;
+            if (!Directory.Exists(NewEffects) || !Directory.Exists(RestoreDefault) || cb == null) return;
             string[] remove_Effects = Directory.GetFiles(NewEffects, "*.*", SearchOption.AllDirectories);
             var remove_Effects_path = Path.GetFileName(NewEffects);
             int remove_Effects_dir = remove_Effects_path.Length;
@@ -1268,6 +1155,9 @@
             string[] restore_Default = Directory.GetFiles(RestoreDefault, "*.*", SearchOption.AllDirectories);
             var restore_Default_path = Path.GetFileName(RestoreDefault);
             int restore_Default_dir = restore_Default_path.Length;
+
+            string showname = cb.Content.ToString();
+            bool? ischecked = cb.IsChecked;
             try
             {
                 String tmpDispaly = "";
@@ -1277,20 +1167,20 @@
                         {
                             if (remove_Effects == null || remove_Effects.Length == 0)
                             {
-                                tmpDispaly = "找不到对应的替换文件,请检查："+ NewEffects;
+                                tmpDispaly = "找不到对应的替换文件,请检查：" + NewEffects;
                             }
-                            else {
+                            else
+                            {
                                 foreach (var item in remove_Effects)
                                 {
                                     string fileNames = item.Remove(0, NewEffects.Length - remove_Effects_dir);
 
-                                 
                                     RecordsByPath[fileNames].ReplaceContents(ggpkPath, item, content.FreeRoot);
                                 }
                                 UpdateDisplayPanel();
-                                tmpDispaly = showname+ " 替换完成。";
+                                tmpDispaly = showname + " 替换完成。";
                             }
-                            
+
                         }
                         break;
 
@@ -1298,19 +1188,20 @@
                         {
                             if (restore_Default == null || restore_Default.Length == 0)
                             {
-                                tmpDispaly = "找不到对应的还原文件,请检查："+ RestoreDefault;
+                                tmpDispaly = "找不到对应的还原文件,请检查：" + RestoreDefault;
                             }
-                            else {
+                            else
+                            {
                                 foreach (var item in restore_Default)
                                 {
                                     string fileNames = item.Remove(0, RestoreDefault.Length - restore_Default_dir);
                                     RecordsByPath[fileNames].ReplaceContents(ggpkPath, item, content.FreeRoot);
                                 }
                                 UpdateDisplayPanel();
-                                tmpDispaly = showname+ " 还原完成。";
+                                tmpDispaly = showname + " 还原完成。";
 
                             }
-                           
+
                         }
                         break;
                 }
@@ -1319,7 +1210,7 @@
             }
             catch (Exception ex)
             {
-                textBoxOutput.Text = "【ERROR】"+ showname+ (ischecked == true ? " 替换" : " 还原") + "失败\r\n"+ string.Format(Settings.Strings["ReplaceItem_Failed"], ex.Message+"\r\n位于处理："+(ischecked==true? NewEffects: RestoreDefault) );
+                textBoxOutput.Text = "【ERROR】" + showname + (ischecked == true ? " 替换" : " 还原") + "失败\r\n" + string.Format(Settings.Strings["ReplaceItem_Failed"], ex.Message + "\r\n位于处理：" + (ischecked == true ? NewEffects : RestoreDefault));
                 MessageBox.Show(string.Format(Settings.Strings["ReplaceItem_Failed"], ex.Message),
                     Settings.Strings["Error_Caption"], MessageBoxButton.OK, MessageBoxImage.Error);
             }
@@ -1360,8 +1251,8 @@
             textBoxOutput.Text = string.Empty;
             textBoxOutput.Visibility = Visibility.Visible;
 
-            if (MessageBox.Show(Settings.Strings["MainWindow_Window_Drop_Confirm"], 
-                Settings.Strings["MainWindow_Window_Drop_Confirm_Caption"], 
+            if (MessageBox.Show(Settings.Strings["MainWindow_Window_Drop_Confirm"],
+                Settings.Strings["MainWindow_Window_Drop_Confirm_Caption"],
                 MessageBoxButton.YesNo, MessageBoxImage.Question) != MessageBoxResult.Yes)
             {
                 return;
@@ -1422,7 +1313,7 @@
         }
         private void LinkLabel_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
-           
+
             try
             {
                 System.Diagnostics.Process.Start(e.Uri.ToString());
@@ -1432,16 +1323,17 @@
 
         private void modChar1_MouseEnter(object sender, MouseEventArgs e)
         {
-                        
+
             try
             {
-             CheckBox tmpCheck = sender as CheckBox;
-             if (tmpCheck.Tag != null && !tmpCheck.Tag.ToString().Equals("") && File.Exists(System.Windows.Forms.Application.StartupPath + tmpCheck.Tag.ToString())) {
-             //       GridRow.Source = new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + tmpCheck.Tag.ToString(), UriKind.Relative));
-                GridRow.Background = new ImageBrush(new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + tmpCheck.Tag.ToString(), UriKind.Relative)));
-            }
-           
-                
+                CheckBox tmpCheck = sender as CheckBox;
+                if (tmpCheck.Tag != null && !tmpCheck.Tag.ToString().Equals("") && File.Exists(System.Windows.Forms.Application.StartupPath + tmpCheck.Tag.ToString()))
+                {
+                    //       GridRow.Source = new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + tmpCheck.Tag.ToString(), UriKind.Relative));
+                    GridRow.Background = new ImageBrush(new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + tmpCheck.Tag.ToString(), UriKind.Relative)));
+                }
+
+
 
             }
             catch { }
@@ -1450,8 +1342,8 @@
 
         private void modChar1_MouseLeave(object sender, MouseEventArgs e)
         {
-          //  GridRow.Source = null;
-           GridRow.Background = null;
+            //  GridRow.Source = null;
+            GridRow.Background = null;
         }
     }
 }
