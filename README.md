@@ -86,3 +86,11 @@ __________________________________________________________
 
 
 我的博客:**http://poetw.blog.163.com/** 
+
+
+English README:  
+
+https://github.com/lucifering/PoeSmootherModCN/blob/master/README_EN.md  
+
+  
+  
