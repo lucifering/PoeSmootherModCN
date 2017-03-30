@@ -1,0 +1,3 @@
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\PoeSmoother.exe.config
+F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmoother.exe
+F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmoother.pdb
