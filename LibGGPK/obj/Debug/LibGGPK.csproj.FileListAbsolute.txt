@@ -1,0 +1,13 @@
+C:\Users\me\Documents\GitHub\PoeSmoother\LibGGPK\bin\Debug\LibGGPK.dll
+C:\Users\me\Documents\GitHub\PoeSmoother\LibGGPK\bin\Debug\LibGGPK.pdb
+C:\Users\me\Documents\GitHub\PoeSmoother\LibGGPK\obj\Debug\LibGGPK.dll
+C:\Users\me\Documents\GitHub\PoeSmoother\LibGGPK\obj\Debug\LibGGPK.pdb
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\bin\Debug\LibGGPK.dll
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\bin\Debug\LibGGPK.pdb
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\obj\Debug\LibGGPK.dll
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\obj\Debug\LibGGPK.pdb
+F:\dotNet\PoeSmoother-master\LibGGPK\bin\Debug\LibGGPK.dll
+F:\dotNet\PoeSmoother-master\LibGGPK\bin\Debug\LibGGPK.pdb
+F:\dotNet\PoeSmoother-master\LibGGPK\obj\Debug\LibGGPK.csprojResolveAssemblyReference.cache
+F:\dotNet\PoeSmoother-master\LibGGPK\obj\Debug\LibGGPK.dll
+F:\dotNet\PoeSmoother-master\LibGGPK\obj\Debug\LibGGPK.pdb

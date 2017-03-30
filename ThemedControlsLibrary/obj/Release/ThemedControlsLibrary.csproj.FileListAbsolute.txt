@@ -1,0 +1,16 @@
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\bin\Release\ThemedControlsLibrary.dll
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Release\ResolveAssemblyReference.cache
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary_MarkupCompile.cache
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary_MarkupCompile.lref
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Release\Themes\Generic.baml
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.g.resources
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.dll
+F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\bin\Release\ThemedControlsLibrary.dll
+F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary_MarkupCompile.cache
+F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary_MarkupCompile.lref
+F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\Themes\Generic.baml
+F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.g.resources
+F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.dll
+F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\ThemedControlsLibrary.dll

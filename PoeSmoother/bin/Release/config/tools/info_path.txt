@@ -1,0 +1,55 @@
+rain particles -> rainsparse = "Metadata\\Particles\\rainsparse.pet";
+rain particles -> rain_1_3_9 = "Metadata\\Particles\\enviro_effects\\rain\\rain_1_3_9.pet";
+rain particles -> boat_rain = "Metadata\\Particles\\cargohold\\boat_rain.pet";
+
+ground effects -> evil_new_cyl = "Metadata\\Particles\\ground_effects\\evil\\new\\cyl.pet";
+ground effects -> evil_cyl = "Metadata\\Particles\\ground_effects\\evil\\cyl.pet";
+ground effects -> line = "Metadata\\Particles\\ground_effects\\evil\\line.pet";
+ground effects -> fire_cyl = "Metadata\\Particles\\ground_effects\\fire\\cyl.pet";
+ground effects -> ice_cyl = "Metadata\\Particles\\ground_effects\\ice\\cyl.pet";
+ground effects -> lightning_cyl = "Metadata\\Particles\\ground_effects\\lightning\\lightning_cyl.pet";
+ground effects -> cloud_large = "Metadata\\Particles\\ground_effects\\poison\\cloud_large.pet";
+ground effects -> cloud_mid = "Metadata\\Particles\\ground_effects\\poison\\cloud_mid.pet";
+ground effects -> cloud_small = "Metadata\\Particles\\ground_effects\\poison\\cloud_small.pet";
+ground effects -> tar_cyl = "Metadata\\Particles\\ground_effects\\tar\\cyl.pet";
+
+corrupted area -> air_particles = "Metadata\\Particles\\enviro_effects\\vaal_sidearea_effects\\air_particles.pet";
+corrupted area -> directionalfog = "Metadata\\Particles\\enviro_effects\\vaal_sidearea_effects\\directionalfog.pet";
+corrupted area -> fog_circle = "Metadata\\Particles\\enviro_effects\\vaal_sidearea_effects\\fog_circle.pet";
+corrupted area -> fog_cyl = "Metadata\\Particles\\enviro_effects\\vaal_sidearea_effects\\fog_cyl.pet";
+corrupted area -> ground_fog = "Metadata\\Particles\\enviro_effects\\vaal_sidearea_effects\\ground_fog.pet";
+corrupted area -> smoke_back_filler = "Metadata\\Particles\\enviro_effects\\vaal_sidearea_effects\\smoke_back_filler.pet";
+corrupted area -> smoke_rollout = "Metadata\\Particles\\enviro_effects\\vaal_sidearea_effects\\smoke_rollout.pet";
+corrupted area -> smoke_rollout_bigbox = "Metadata\\Particles\\enviro_effects\\vaal_sidearea_effects\\smoke_rollout_bigbox.pet";
+
+golem sounds -> ChaosElemental = "Metadata\\Monsters\\ChaosElemental\\ChaosElemental.aoc";
+golem sounds -> ChaosElementalSummoned = "Metadata\\Monsters\\ChaosElemental\\ChaosElementalSummoned.aoc";
+golem sounds -> FireElemental = "Metadata\\Monsters\\FireElemental\\FireElemental.aoc";
+golem sounds -> FireElementalSummoned = "Metadata\\Monsters\\FireElemental\\FireElementalSummoned.aoc";
+golem sounds -> IceElemental = "Metadata\\Monsters\\IceElemental\\IceElemental.aoc";
+golem sounds -> IceElementalSummoned = "Metadata\\Monsters\\IceElemental\\IceElementalSummoned.aoc";
+
+spectre sounds -> Revenant = "Metadata\\Monsters\\Revenant\\Revenant.aoc";
+spectre sounds -> RevenantBoss = "Metadata\\Monsters\\Revenant\\RevenantBoss.aoc";
+
+ranger vocal sounds -> Dex = "Metadata\\Characters\\Dex\\Dex.aoc";
+shadow vocal sounds -> DexInt = "Metadata\\Characters\\DexInt\\DexInt.aoc";
+witch vocal sounds -> Int = "Metadata\\Characters\\Int\\Int.aoc";
+marauder vocal sounds -> Str = "Metadata\\Characters\\Str\\Str.aoc";
+duelist vocal sounds -> StrDex = "Metadata\\Characters\\StrDex\\StrDex.aoc";
+scion vocal sounds -> StrDexInt = "Metadata\\Characters\\StrDexInt\\StrDexInt.aoc";
+templar vocal sounds -> StrInt = "Metadata\\Characters\\StrInt\\StrInt.aoc";
+
+power charge sounds -> rig_charge = "Metadata\\Effects\\Spells\\orbs\\rig_charge.aoc";
+endurance charge sounds -> rig_endurance = "Metadata\\Effects\\Spells\\orbs\\rig_endurance.aoc";
+frenzy charge sounds -> rig_frenzy = "Metadata\\Effects\\Spells\\orbs\\rig_frenzy.aoc";
+
+portals sounds -> rig = "Metadata\\Effects\\Environment\\act3\\gem_lady_portal\\rig.aoc";
+waypoint sounds -> waypoint_idle = "Metadata\\Effects\\Environment\\waypoint\\new\\waypoint_idle.aoc";
+
+herald of ice explode effects -> circle = "Metadata\\Particles\\herald\\ice\\explode\\circle.pet";
+herald of ice explode effects -> cyl = "Metadata\\Particles\\herald\\ice\\explode\\cyl.pet";
+herald of ice explode effects -> mid = "Metadata\\Particles\\herald\\ice\\explode\\mid.pet";
+
+dead bodies -> Metadata\\Monsters\\Monster.ot
+ui settings -> Art\\Textures\\Interface\\2D\\2DArt_UIImages_InGame_1.dds

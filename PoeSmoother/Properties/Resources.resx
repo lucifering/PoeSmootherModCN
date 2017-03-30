@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Load_GGPK_Filter" xml:space="preserve">
+    <value>GGPK Pack File|*.ggpk</value>
+  </data>
+  <data name="ReloadGGPK_Failed" xml:space="preserve">
+    <value>读取文件失败: {0}</value>
+  </data>
+  <data name="ReloadGGPK_Traversing_Tree" xml:space="preserve">
+    <value>遍历目录树....</value>
+  </data>
+  <data name="Error_Read_Directory_Tree" xml:space="preserve">
+    <value>读取目录树失败: {0}</value>
+  </data>
+  <data name="ReloadGGPK_Successful" xml:space="preserve">
+    <value>全部完成!</value>
+  </data>
+  <data name="UpdateDisplayPanel_Failed" xml:space="preserve">
+    <value> * 无法预览，如需查看请导出后使用正确的软件打开 *
+
+详情: {0}</value>
+  </data>
+  <data name="ExportSelectedItem_Successful" xml:space="preserve">
+    <value>导出 {0} 字节</value>
+  </data>
+  <data name="ExportAllItemsInDirectory_Successful_Caption" xml:space="preserve">
+    <value>导出成功</value>
+  </data>
+  <data name="ExportSelectedItem_Failed" xml:space="preserve">
+    <value>导出文件失败: {0}</value>
+  </data>
+  <data name="Error_Caption" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="ViewSelectedItem_Failed" xml:space="preserve">
+    <value>未能提取查看的文件: {0}</value>
+  </data>
+  <data name="ExportAllItemsInDirectory_Default_FileName" xml:space="preserve">
+    <value>selectedRecord.Name</value>
+  </data>
+  <data name="ExportAllItemsInDirectory_Successful" xml:space="preserve">
+    <value>导出 {0} 文件</value>
+  </data>
+  <data name="ExportAllItemsInDirectory_Failed" xml:space="preserve">
+    <value>导出文件失败: {0}</value>
+  </data>
+  <data name="ReplaceItem_Successful" xml:space="preserve">
+    <value>记录 {0} 已更新并更新到偏移量 {1}</value>
+  </data>
+  <data name="ReplaceItem_Successful_Caption" xml:space="preserve">
+    <value>替换成功</value>
+  </data>
+  <data name="ReplaceItem_Failed" xml:space="preserve">
+    <value>替换文件失败: {0}</value>
+  </data>
+  <data name="DatViewer_ExportCSV_Failed" xml:space="preserve">
+    <value>保存为 CSV 文件失败: {0}</value>
+  </data>
+  <data name="DatViewer_ExportCSV_Successful" xml:space="preserve">
+    <value>保存 CSV 文件到 {0}</value>
+  </data>
+  <data name="DatViewer_ExportCSV_Successful_Caption" xml:space="preserve">
+    <value>保存为 CSV 成功</value>
+  </data>
+  <data name="DatWrapper_ParseDatFile_Unsupported_File" xml:space="preserve">
+    <value>没有文件处理程序 {0}</value>
+  </data>
+  <data name="DatWrapper_ParseDatFile_Failed" xml:space="preserve">
+    <value>读取 dat 失败: {0}</value>
+  </data>
+  <data name="DatWrapper_Save_Failed" xml:space="preserve">
+    <value>保存失败: {0}</value>
+  </data>
+  <data name="DatWrapper_Save_Successful_Caption" xml:space="preserve">
+    <value>已保存</value>
+  </data>
+  <data name="DatWrapper_Save_Successful" xml:space="preserve">
+    <value>已保存 '{0}'</value>
+  </data>
+  <data name="MainWindow_Label_FileOffset" xml:space="preserve">
+    <value>文件偏移量:</value>
+  </data>
+  <data name="LabelFileOFfset_Content" xml:space="preserve">
+    <value>文件偏移量:</value>
+  </data>
+  <data name="MainWindow_Menu_Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="MainWindow_Menu_Replace" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="MainWindow_Menu_View" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="DatViewer_Button_ExportCSV" xml:space="preserve">
+    <value>导出 CSV</value>
+  </data>
+  <data name="DatViewer_Button_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="MainWindow_Drop_Failed" xml:space="preserve">
+    <value>只能拉取单独一个文件、文件夹或zip压缩包</value>
+  </data>
+  <data name="MainWindow_Window_Drop_Confirm" xml:space="preserve">
+    <value>是否替换文件?</value>
+  </data>
+  <data name="MainWindow_Window_Drop_Confirm_Caption" xml:space="preserve">
+    <value>确认替换</value>
+  </data>
+  <data name="MainWindow_HandleDropDirectory_Count" xml:space="preserve">
+    <value>文件数量 = {0}</value>
+  </data>
+  <data name="MainWindow_HandleDropDirectory_Failed" xml:space="preserve">
+    <value>不能替换文件  {0} -&gt; 找不到</value>
+  </data>
+  <data name="MainWindow_HandleDropDirectory_Replace" xml:space="preserve">
+    <value>替换中 {0}</value>
+  </data>
+  <data name="MainWindow_HandleDropFile_Failed" xml:space="preserve">
+    <value>必须在左边的目录树中选择一个要替换的目标文件</value>
+  </data>
+  <data name="MainWindow_HandleDropFile_Replace" xml:space="preserve">
+    <value>替换中 {0}{1}</value>
+  </data>
+  <data name="MainWindow_HandleDropArchive_Info" xml:space="preserve">
+    <value>应用内容到 {0}</value>
+  </data>
+  <data name="ReloadGGPK_ReadOnly" xml:space="preserve">
+    <value>***只读模式打开 GGPK（一般是游戏没有退出造成） ***</value>
+  </data>
+  <data name="ReplaceItem_Readonly" xml:space="preserve">
+    <value>GGPK处于只读模式</value>
+  </data>
+  <data name="ReplaceItem_Readonly_Caption" xml:space="preserve">
+    <value>不能写入GGPK</value>
+  </data>
+  <data name="MainWindow_Title_Readonly" xml:space="preserve">
+    <value>VisualGGPK (只读模式)</value>
+  </data>
+  <data name="MainWindow_Label_FileSize" xml:space="preserve">
+    <value>文件大小:</value>
+  </data>
+  <data name="MainWindow_Label_FileHash" xml:space="preserve">
+    <value>Hash:</value>
+  </data>
+  <data name="MainWindow_VersionCheck_Failed" xml:space="preserve">
+    <value>版本检查失败.</value>
+  </data>
+  <data name="MainWindow_Label_FileNameHash" xml:space="preserve">
+    <value>名字 Hash:</value>
+  </data>
+</root>

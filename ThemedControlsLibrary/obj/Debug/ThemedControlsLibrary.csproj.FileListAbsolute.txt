@@ -1,0 +1,10 @@
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\bin\Debug\ThemedControlsLibrary.dll
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\bin\Debug\ThemedControlsLibrary.pdb
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Debug\ThemedControlsLibrary_MarkupCompile.cache
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Debug\ThemedControlsLibrary_MarkupCompile.lref
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Debug\Themes\Generic.baml
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Debug\ThemedControlsLibrary.g.resources
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Debug\ThemedControlsLibrary.dll
+F:\Projects\Themed Controls Library\ThemedControlsLibrary\obj\Debug\ThemedControlsLibrary.pdb

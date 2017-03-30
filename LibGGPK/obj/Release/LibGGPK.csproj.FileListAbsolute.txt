@@ -1,0 +1,39 @@
+C:\Users\me\Documents\GitHub\libggpk\LibGGPK\bin\Release\LibGGPK.dll
+C:\Users\me\Documents\GitHub\libggpk\LibGGPK\bin\Release\LibGGPK.pdb
+C:\Users\me\Documents\GitHub\libggpk\LibGGPK\obj\Release\LibGGPK.dll
+C:\Users\me\Documents\GitHub\libggpk\LibGGPK\obj\Release\LibGGPK.pdb
+C:\Users\me\Documents\GitHub\toaster\LibGGPK\bin\Release\LibGGPK.dll
+C:\Users\me\Documents\GitHub\toaster\LibGGPK\bin\Release\LibGGPK.pdb
+C:\Users\me\Documents\GitHub\toaster\LibGGPK\obj\Release\LibGGPK.dll
+C:\Users\me\Documents\GitHub\toaster\LibGGPK\obj\Release\LibGGPK.pdb
+C:\Users\me\Documents\GitHub\poeSmooth\LibGGPK\bin\Release\LibGGPK.dll
+C:\Users\me\Documents\GitHub\poeSmooth\LibGGPK\bin\Release\LibGGPK.pdb
+C:\Users\me\Documents\GitHub\poeSmooth\LibGGPK\obj\Release\LibGGPK.dll
+C:\Users\me\Documents\GitHub\poeSmooth\LibGGPK\obj\Release\LibGGPK.pdb
+C:\Users\me\Documents\GitHub\PoeSmoother\LibGGPK\bin\Release\LibGGPK.dll
+C:\Users\me\Documents\GitHub\PoeSmoother\LibGGPK\bin\Release\LibGGPK.pdb
+C:\Users\me\Documents\GitHub\PoeSmoother\LibGGPK\obj\Release\LibGGPK.dll
+C:\Users\me\Documents\GitHub\PoeSmoother\LibGGPK\obj\Release\LibGGPK.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PoeSmoother-source-v0.6\PoeSmoother\LibGGPK\bin\Release\LibGGPK.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PoeSmoother-source-v0.6\PoeSmoother\LibGGPK\bin\Release\LibGGPK.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PoeSmoother-source-v0.6\PoeSmoother\LibGGPK\obj\Release\LibGGPK.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PoeSmoother-source-v0.6\PoeSmoother\LibGGPK\obj\Release\LibGGPK.pdb
+C:\Users\vmv\Documents\Visual Studio 2015\Projects\PoeSmoother\LibGGPK\bin\Release\LibGGPK.dll
+C:\Users\vmv\Documents\Visual Studio 2015\Projects\PoeSmoother\LibGGPK\bin\Release\LibGGPK.pdb
+C:\Users\vmv\Documents\Visual Studio 2015\Projects\PoeSmoother\LibGGPK\obj\Release\LibGGPK.dll
+C:\Users\vmv\Documents\Visual Studio 2015\Projects\PoeSmoother\LibGGPK\obj\Release\LibGGPK.pdb
+C:\Users\vmv\Documents\GitHub\---PoeSmoother\LibGGPK\bin\Release\LibGGPK.dll
+C:\Users\vmv\Documents\GitHub\---PoeSmoother\LibGGPK\bin\Release\LibGGPK.pdb
+C:\Users\vmv\Documents\GitHub\---PoeSmoother\LibGGPK\obj\Release\LibGGPK.dll
+C:\Users\vmv\Documents\GitHub\---PoeSmoother\LibGGPK\obj\Release\LibGGPK.pdb
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\bin\Release\LibGGPK.dll
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\bin\Release\LibGGPK.pdb
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\obj\Release\LibGGPK.dll
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\obj\Release\LibGGPK.pdb
+C:\Users\vmv\Documents\GitHub\PoeSmoother\LibGGPK\obj\Release\LibGGPK.csprojResolveAssemblyReference.cache
+F:\dotNet\PoeSmoother-master\LibGGPK\bin\Release\LibGGPK.dll
+F:\dotNet\PoeSmoother-master\LibGGPK\bin\Release\LibGGPK.pdb
+F:\dotNet\PoeSmoother-master\LibGGPK\obj\Release\LibGGPK.dll
+F:\dotNet\PoeSmoother-master\LibGGPK\obj\Release\LibGGPK.pdb
+F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\LibGGPK.dll
+F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\LibGGPK.pdb

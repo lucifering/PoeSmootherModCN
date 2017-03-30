@@ -1,0 +1,37 @@
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\bin\Release\PoeSmoother.exe.config
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\bin\Release\PoeSmoother.exe
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\bin\Release\PoeSmoother.pdb
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\bin\Release\Ionic.Zip.dll
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\bin\Release\LibGGPK.dll
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\bin\Release\LibGGPK.pdb
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\PoeSmoother.csprojResolveAssemblyReference.cache
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\Simple Styles.baml
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\App.baml
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\MainWindow.g.cs
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\App.g.cs
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\PoeSmoother_MarkupCompile.cache
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\PoeSmoother_MarkupCompile.lref
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\MainWindow.baml
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\PoeSmoother.g.resources
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\PoeSmoother.Properties.Resources.resources
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\PoeSmoother.csproj.GenerateResource.Cache
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\PoeSmoother.exe
+C:\Users\vmv\Documents\GitHub\PoeSmoother\PoeSmoother\obj\x86\Release\PoeSmoother.pdb
+F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\PoeSmoother.exe.config
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\PoeSmoother.exe
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\PoeSmoother.pdb
+F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\PoeSmoother.exe
+F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\PoeSmoother.pdb
+F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\Ionic.Zip.dll
+F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\LibGGPK.pdb
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\PoeSmoother.csprojResolveAssemblyReference.cache
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\Simple Styles.baml
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\App.baml
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\MainWindow.g.cs
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\App.g.cs
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\PoeSmoother_MarkupCompile.cache
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\PoeSmoother_MarkupCompile.lref
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\MainWindow.baml
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\PoeSmoother.g.resources
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\PoeSmoother.Properties.Resources.resources
+F:\dotNet\PoeSmoother-master\PoeSmoother\obj\x86\Release\PoeSmoother.csproj.GenerateResource.Cache
