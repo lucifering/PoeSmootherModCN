@@ -14,7 +14,7 @@ http://pan.baidu.com/s/1hsqT8e4
   
 
 项目基于PoeSmoother：https://github.com/thisTwo/PoeSmoother
-===================================  
+__________________________________________________________
 
 **程序需要 Microsoft .NET Framework 4.5 运行环境。**  
 
