@@ -9,9 +9,7 @@ https://github.com/lucifering/PoeSmootherModCN/archive/master.zip
 
 或：  
 
-http://pan.baidu.com/s/1hsqT8e4  
-
-
+http://pan.baidu.com/s/1hsqT8e4  （百度盘里的可能不是最新的）
   
   
 
