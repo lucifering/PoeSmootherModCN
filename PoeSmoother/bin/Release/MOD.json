@@ -37,6 +37,87 @@
             }
         ]
     },{
+        "Name": "- 常用技能特效",
+        "Items": [
+		
+
+
+            {               
+                "Content": "- 烈焰爆破·蓝",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·蓝.preview",
+                    "NewMOD": ["config/MOD/FlameBlastBlue/newEffects/Metadata","config/MOD/FlameBlastBlue/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastBlue/restoreDefault/Metadata","config/MOD/FlameBlastBlue/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 烈焰爆破·灰",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·灰.preview",
+                    "NewMOD": ["config/MOD/FlameBlastGray/newEffects/Metadata","config/MOD/FlameBlastGray/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastGray/restoreDefault/Metadata","config/MOD/FlameBlastGray/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 烈焰爆破·绿",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·绿.preview",
+                    "NewMOD": ["config/MOD/FlameBlastGreen/newEffects/Metadata","config/MOD/FlameBlastGreen/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastGreen/restoreDefault/Metadata","config/MOD/FlameBlastGreen/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 烈焰爆破·紫",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·紫.preview",
+                    "NewMOD": ["config/MOD/FlameBlastPurple/newEffects/Metadata","config/MOD/FlameBlastPurple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastPurple/restoreDefault/Metadata","config/MOD/FlameBlastPurple/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 烈焰爆破·黄",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·黄.preview",
+                    "NewMOD": ["config/MOD/FlameBlastYellow/newEffects/Metadata","config/MOD/FlameBlastYellow/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastYellow/restoreDefault/Metadata","config/MOD/FlameBlastYellow/restoreDefault/Art"]
+                }
+            },
+            {               
+                "Content": "- 冰手转冰凌地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转闪电落雷",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转闪电落雷.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Thunder/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Thunder/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转火焰",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转火焰.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Fire/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Fire/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转紫色电气地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转紫色电气地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Purple/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Purple/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    },{
         "Name": "- 技能特效",
         "Items": [
             {               
@@ -62,70 +143,6 @@
                     "ToolTipImg": "/mod/冰火双龙炫彩纪律.preview",
                     "NewMOD": ["config/MOD/Discipline2IcefireColor/newEffects/Metadata","config/MOD/Discipline2IcefireColor/newEffects/Art"],
                     "OldMOD": ["config/MOD/Discipline2IcefireColor/restoreDefault/Metadata","config/MOD/Discipline2IcefireColor/restoreDefault/Metadata"]
-                }
-            },{               
-                "Content": "- 冰手转冰凌地面",              
-                "ToolTip": "by 17173-猪猪lei",
-                "Tag": {
-                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
-                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
-                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
-                }
-            },{               
-                "Content": "- 冰手转冰凌地面",              
-                "ToolTip": "by 17173-猪猪lei",
-                "Tag": {
-                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
-                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
-                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
-                }
-            },{               
-                "Content": "- 冰手转冰凌地面",              
-                "ToolTip": "by 17173-猪猪lei",
-                "Tag": {
-                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
-                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
-                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
-                }
-            },{               
-                "Content": "- 冰手转冰凌地面",              
-                "ToolTip": "by 17173-猪猪lei",
-                "Tag": {
-                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
-                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
-                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
-                }
-            },{               
-                "Content": "- 冰手转闪电落雷",              
-                "ToolTip": "by 17173-猪猪lei",
-                "Tag": {
-                    "ToolTipImg": "/mod/冰手转闪电落雷.preview",
-                    "NewMOD": ["config/MOD/GeraldofIce2Thunder/newEffects/Metadata"],
-                    "OldMOD": ["config/MOD/GeraldofIce2Thunder/restoreDefault/Metadata"]
-                }
-            },{               
-                "Content": "- 冰手转火焰",              
-                "ToolTip": "by 17173-猪猪lei",
-                "Tag": {
-                    "ToolTipImg": "/mod/冰手转火焰.preview",
-                    "NewMOD": ["config/MOD/GeraldofIce2Fire/newEffects/Metadata"],
-                    "OldMOD": ["config/MOD/GeraldofIce2Fire/restoreDefault/Metadata"]
-                }
-            },{               
-                "Content": "- 冰手转冰凌地面",              
-                "ToolTip": "by 17173-猪猪lei",
-                "Tag": {
-                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
-                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
-                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
-                }
-            },{               
-                "Content": "- 冰手转紫色电气地面",              
-                "ToolTip": "by 17173-猪猪lei",
-                "Tag": {
-                    "ToolTipImg": "/mod/冰手转紫色电气地面.preview",
-                    "NewMOD": ["config/MOD/GeraldofIce2Purple/newEffects/Metadata"],
-                    "OldMOD": ["config/MOD/GeraldofIce2Purple/restoreDefault/Metadata"]
                 }
             },{               
                 "Content": "- 虚空匕首·虚影之星",              
