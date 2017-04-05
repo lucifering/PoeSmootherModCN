@@ -16,3 +16,5 @@ F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\MainWindow.baml
 F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmoother.g.resources
 F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmoother.Properties.Resources.resources
 F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmootherMOD.csproj.GenerateResource.Cache
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\Newtonsoft.Json.dll
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\Newtonsoft.Json.xml

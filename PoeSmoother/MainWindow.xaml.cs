@@ -15,7 +15,8 @@
     using System.Windows.Media;
     using System.Windows.Media.Imaging;
     using System.Windows.Navigation;
-
+    using Newtonsoft.Json.Linq;
+    using Newtonsoft.Json;
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -427,7 +428,97 @@
         }
         private void PoeSmoother_Loaded(object sender, RoutedEventArgs e)
         {
+            if (File.Exists("./MOD.json")) {
+               
+                try
+                {
+                    string jsonText = File.ReadAllText(@"./MOD.json",Encoding.UTF8);
 
+                   // string jsonText = "[     {         \"Name\": \"测试1\",         \"Items\": [             {                 \"Name\": \"modSkill15\",                 \"Content\": \"- 电弧闪电传送·红\",                 \"Checked\": \"Arc2Red\",                 \"Unchecked\": \"Arc2Red\",                 \"ToolTip\": \"by 阿帕契公主\",                 \"Tag\": {                     \"ToolTipImg\": \"/mod/电弧闪电传送·红.preview\",                     \"NewMOD\": \"config/MOD/Arc2Red/newEffects/Art\",                     \"OldMOD\": \"config/MOD/Arc2Red/restoreDefault/Art\"                 }             }         ]     } ]";
+
+                  //  Console.WriteLine("jsonText:" + jsonText);
+                    JArray jaAlllist = JArray.Parse(jsonText);
+
+                    if (jaAlllist != null && jaAlllist.Count > 0)
+                    {
+                        Console.WriteLine("jaAlllist:" + jaAlllist.Count);
+                        for (int i = 0; i < jaAlllist.Count; i++)
+                        {
+
+                            JObject obData = JObject.Parse(jaAlllist[i].ToString());
+
+                            if (obData.GetValue("Name") != null)
+                            {
+                                string title = obData.GetValue("Name") == null ? "" : obData.GetValue("Name").ToString();
+
+                                Console.WriteLine("title:" + title);
+                                TextBlock tb = new TextBlock();
+                                tb.HorizontalAlignment = HorizontalAlignment.Left;
+                                tb.TextWrapping = TextWrapping.Wrap;
+                                tb.Width = 227;
+                                tb.FontSize = 16;
+                                tb.Height = 24;
+                                tb.VerticalAlignment = VerticalAlignment.Center;
+                                tb.Margin = new Thickness(5, 10, 0, 0);
+
+                                tb.Foreground = new SolidColorBrush(Color.FromRgb(223, 207, 153));
+                                tb.Text = title;
+                                panelShowBack.Children.Add(tb);
+                                if (obData.GetValue("Items") != null)
+                                {
+                                    JArray itemlist = JArray.Parse(obData.GetValue("Items").ToString());
+
+                                    if (itemlist != null && itemlist.Count > 0)
+                                    {
+                                        for (int j = 0; j < itemlist.Count; j++)
+                                        {
+                                            Console.WriteLine(i + "<CB>" + j);
+                                            JObject obItem = JObject.Parse(itemlist[j].ToString());
+                                            CheckBox cb = new CheckBox();
+                                            cb.Content = obItem.GetValue("Content") == null ? "" : obItem.GetValue("Content").ToString();
+                                            cb.Checked += new RoutedEventHandler(ModReplaceCheck);
+                                            cb.Unchecked += new RoutedEventHandler(ModReplaceCheck);
+                                            cb.IsChecked = false;
+                                            cb.Background = null;
+                                            cb.FontSize = 14;
+                                            cb.ToolTip = obItem.GetValue("ToolTip") == null ? "" : obItem.GetValue("ToolTip").ToString();
+                                            cb.Padding = new Thickness(3, -3, 0, 0);
+                                            cb.Margin = new Thickness(5, 0, 0, 0);
+                                            cb.Foreground = new SolidColorBrush(Color.FromRgb(217, 210, 199));
+                                            cb.BorderBrush = new SolidColorBrush(Color.FromScRgb(127, 217, 210, 199));
+                                            cb.Height = 18;
+                                            cb.MouseEnter += new MouseEventHandler(modChar1_MouseEnterCheck);
+                                            cb.MouseLeave += new MouseEventHandler(modChar1_MouseLeaveCheck);
+                                            cb.Tag = obItem.GetValue("Tag").ToString();
+                                            panelShowBack.Children.Add(cb);
+                                        }
+
+                                    }
+
+                                }
+
+                            }
+
+
+
+
+                        }
+
+                    }
+                }
+                catch
+                {
+                    //   MessageBox.Show("准备解析Json：" + jsonText);
+
+                }
+            }
+          
+           
+
+
+            /*
+             
+             */
             // System.IO.Directory.SetCurrentDirectory(System.Windows.Forms.Application.StartupPath);
             OpenFileDialog ofd = new OpenFileDialog
             {
@@ -854,7 +945,7 @@
               );
 
         }
-
+        /*
         #region UI界面
 
         private void Mod_UI_Goddess1(object sender, RoutedEventArgs e)
@@ -1085,8 +1176,7 @@
             sender as CheckBox, NewEffects, RestoreDefault
              );
         }
-
-
+       
         #endregion
         //private void button_Click(object sender, RoutedEventArgs e)
         //{
@@ -1129,25 +1219,72 @@
         //}
 
         #region skills
-      
-        #endregion
-
 
         #endregion
+           */
+
+        #endregion
+
 
         #region MOD
+
+        private void ModReplaceCheck(object sender, RoutedEventArgs e)
+        {
+            CheckBox cb = sender as CheckBox;
+            if (cb != null && cb.Tag!=null ) {
+
+                Console.WriteLine("【Check】"+cb.Content);
+                Console.WriteLine("【`】" + cb.Tag.ToString());
+
+
+                JObject jobtag = JObject.Parse(cb.Tag.ToString());
+                if (jobtag != null) {
+
+                    if (jobtag.GetValue("NewMOD") != null && jobtag.GetValue("OldMOD") != null) {
+
+                        JArray janew = JArray.Parse(jobtag.GetValue("NewMOD").ToString());
+                        JArray jaold = JArray.Parse(jobtag.GetValue("OldMOD").ToString());
+                        if (janew != null && jaold != null && jaold.Count == janew.Count) {
+                            for (int i = 0; i < janew.Count; i++) {
+
+                                string NewEffects = janew[i] == null ? "" : janew[i].ToString();
+                                string RestoreDefault = jaold[i] == null ? "" : jaold[i].ToString();
+                                ModReplace(cb, NewEffects, RestoreDefault);
+
+                            }
+
+                        }
+
+                    }
+                    
+                }
+                /*
+             {
+  "ToolTipImg": "/mod/电弧闪电传送·红.preview",
+  "NewMOD": ["config/MOD/Arc2Red/newEffects/Art"],
+  "OldMOD":[ "config/MOD/Arc2Red/restoreDefault/Art"]
+}    
+             */
+
+
+
+
+            }
+
+        }
         private void ModReplace(CheckBox cb, string NewEffects, string RestoreDefault)
         {
-
+            
             //  Console.WriteLine(">ischecked=" + ischecked);
-            // Console.WriteLine(">NewEffects=" + NewEffects);
+             Console.WriteLine(">NewEffects=" + NewEffects);
+            Console.WriteLine(">RestoreDefault=" + RestoreDefault);
             if (content.IsReadOnly)
             {
                 MessageBox.Show(Settings.Strings["ReplaceItem_Readonly"], Settings.Strings["ReplaceItem_ReadonlyCaption"]);
                 return;
             }
 
-            if (!Directory.Exists(NewEffects) || !Directory.Exists(RestoreDefault) || cb == null) return;
+            if (!Directory.Exists(NewEffects) || !Directory.Exists(RestoreDefault) || cb == null || (NewEffects.Equals("") && RestoreDefault.Equals(""))) return;
             string[] remove_Effects = Directory.GetFiles(NewEffects, "*.*", SearchOption.AllDirectories);
             var remove_Effects_path = Path.GetFileName(NewEffects);
             int remove_Effects_dir = remove_Effects_path.Length;
@@ -1345,5 +1482,45 @@
             //  GridRow.Source = null;
             GridRow.Background = null;
         }
+        /*
+           {
+"ToolTipImg": "/mod/电弧闪电传送·红.preview",
+"NewMOD": ["config/MOD/Arc2Red/newEffects/Art"],
+"OldMOD": ["config/MOD/Arc2Red/restoreDefault/Art"]
+}    
+           */
+        private void modChar1_MouseEnterCheck(object sender, MouseEventArgs e)
+        {
+
+            try
+            {
+                CheckBox tmpCheck = sender as CheckBox;
+                if (tmpCheck.Tag != null && !tmpCheck.Tag.ToString().Equals(""))
+
+                {
+
+                    JObject jobtag = JObject.Parse(tmpCheck.Tag.ToString());
+                    if (jobtag != null&& jobtag.GetValue("ToolTipImg") !=null) {
+                        string ToolTipImg = jobtag.GetValue("ToolTipImg").ToString();
+                        File.Exists(System.Windows.Forms.Application.StartupPath + ToolTipImg);
+                        //       GridRow.Source = new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + tmpCheck.Tag.ToString(), UriKind.Relative));
+                        GridRow.Background = new ImageBrush(new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + ToolTipImg, UriKind.Relative)));
+                    }
+                   
+                }
+
+
+
+            }
+            catch { }
+
+        }
+
+        private void modChar1_MouseLeaveCheck(object sender, MouseEventArgs e)
+        {
+            //  GridRow.Source = null;
+            GridRow.Background = null;
+        }
+
     }
 }

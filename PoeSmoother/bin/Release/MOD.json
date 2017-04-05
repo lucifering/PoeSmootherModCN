@@ -1,0 +1,165 @@
+[
+    {
+        "Name": "- 角色修改",
+        "Items": [
+            {               
+                "Content": "- 黑发白衣贵族",              
+                "ToolTip": "黑发白衣贵族 by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发白衣贵族.preview",
+                    "NewMOD": ["config/MOD/CharacterAdventurer1/newEffects/Art"],
+                    "OldMOD": ["config/MOD/CharacterAdventurer1/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 黑发黑衣女巫",              
+                "ToolTip": "黑发黑衣女巫 by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发黑衣女巫.preview",
+                    "NewMOD": ["config/MOD/CharacterWitch1/newEffects/Art"],
+                    "OldMOD":[ "config/MOD/CharacterWitch1/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 黑发白衣女巫",              
+                "ToolTip": "黑发白衣女巫 by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发白衣女巫.preview",
+                    "NewMOD":[ "config/MOD/CharacterWitch2/newEffects/Art"],
+                    "OldMOD": ["config/MOD/CharacterWitch2/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 精髓背饰转烟雾翅膀",              
+                "ToolTip": "精髓背饰转烟雾翅膀 by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/精髓背饰转烟雾翅膀.preview",
+                    "NewMOD": ["config/MOD/CharacterEssenceWings/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/CharacterEssenceWings/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    },{
+        "Name": "- 技能特效",
+        "Items": [
+            {               
+                "Content": "- 火雨改流星雨",              
+                "ToolTip": "by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/火雨改流星雨.preview",
+                    "NewMOD": ["config/MOD/FireStrom2start/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FireStrom2start/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 灵投圣权转紫",              
+                "ToolTip": "需要商城的金色灵投皮肤 by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/灵投圣权转紫.preview",
+                    "NewMOD": ["config/MOD/SpectralThrow2Purple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/SpectralThrow2Purple/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 冰火双龙炫彩纪律",              
+                "ToolTip": "仅支持国际服和台服 by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰火双龙炫彩纪律.preview",
+                    "NewMOD": ["config/MOD/Discipline2IcefireColor/newEffects/Metadata","config/MOD/Discipline2IcefireColor/newEffects/Art"],
+                    "OldMOD": ["config/MOD/Discipline2IcefireColor/restoreDefault/Metadata","config/MOD/Discipline2IcefireColor/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转冰凌地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转冰凌地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转冰凌地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转冰凌地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转闪电落雷",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转闪电落雷.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Thunder/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Thunder/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转火焰",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转火焰.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Fire/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Fire/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转冰凌地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转紫色电气地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转紫色电气地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Purple/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Purple/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 虚空匕首·虚影之星",              
+                "ToolTip": "by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/虚空匕首·虚影之星.preview",
+                    "NewMOD": ["config/MOD/EtherealKnivew2DarkGreen/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/EtherealKnivew2DarkGreen/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 烈焰风暴·烈焰焚城",              
+                "ToolTip": "by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰风暴·烈焰焚城.preview",
+                    "NewMOD": ["config/MOD/FireStrom2BrundCity/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/FireStrom2BrundCity/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 解放·炎光",              
+                "ToolTip": "by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/解放·炎光.preview",
+                    "NewMOD": ["config/MOD/Discharge2Flare/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/Discharge2Flare/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 电弧闪电传送·红",              
+                "ToolTip": "by 阿帕契公主",
+                "Tag": {
+                    "ToolTipImg": "/mod/电弧闪电传送·红.preview",
+                    "NewMOD": ["config/MOD/Arc2Red/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/Arc2Red/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    }
+]

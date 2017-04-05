@@ -14,3 +14,11 @@ F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\Themes\Generic.ba
 F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.g.resources
 F:\dotNet\PoeSmoother-master\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.dll
 F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\ThemedControlsLibrary.dll
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\ThemedControlsLibrary.dll
+F:\dotNet\PoeSmootherModCN\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.csprojResolveAssemblyReference.cache
+F:\dotNet\PoeSmootherModCN\ThemedControlsLibrary\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\dotNet\PoeSmootherModCN\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary_MarkupCompile.cache
+F:\dotNet\PoeSmootherModCN\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary_MarkupCompile.lref
+F:\dotNet\PoeSmootherModCN\ThemedControlsLibrary\obj\Release\Themes\Generic.baml
+F:\dotNet\PoeSmootherModCN\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.g.resources
+F:\dotNet\PoeSmootherModCN\ThemedControlsLibrary\obj\Release\ThemedControlsLibrary.dll
