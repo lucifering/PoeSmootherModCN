@@ -1502,9 +1502,14 @@
                     JObject jobtag = JObject.Parse(tmpCheck.Tag.ToString());
                     if (jobtag != null&& jobtag.GetValue("ToolTipImg") !=null) {
                         string ToolTipImg = jobtag.GetValue("ToolTipImg").ToString();
-                        File.Exists(System.Windows.Forms.Application.StartupPath + ToolTipImg);
+                       
                         //       GridRow.Source = new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + tmpCheck.Tag.ToString(), UriKind.Relative));
-                        GridRow.Background = new ImageBrush(new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + ToolTipImg, UriKind.Relative)));
+                        if (File.Exists(System.Windows.Forms.Application.StartupPath + ToolTipImg))
+                        {
+                            GridRow.Background = new ImageBrush(new BitmapImage(new Uri(System.Windows.Forms.Application.StartupPath + ToolTipImg, UriKind.Relative)));
+
+                        }
+                       
                     }
                    
                 }
