@@ -94,3 +94,50 @@ https://github.com/lucifering/PoeSmootherModCN/blob/master/README_EN.md
 
   
   
+# 不修改程序的情况下进行自定义菜单 #
+===================================    
+
+   
+ 2017年4月5日17 由于mod的变动可能比较大，所以把这个功能作为可配置的，用户可以自己添加mod tab选项自定义功能。
+
+MOD.js文件是一个json格式的文件（文件编码是UTF-8，如果出现乱码那么就是保存文件的编码问题），里面配置了mod tab需要显示的项目，和用于替换的用的文件路径。   
+   
+   修改文件前请确定自己熟悉JSON格式。   
+   
+基本的格式如下：  
+<code>
+[
+    {
+        "Name": "- 黄色字的内容",
+        "Items": [
+            {               
+                "Content": "- 子项目1",              
+                "ToolTip": "子项目1的鼠标提示内容",
+                "Tag": {
+                    "ToolTipImg": "/mod/文件夹下的预览图",
+                    "NewMOD": ["这里是打勾后要替换的新特效路径"],
+                    "OldMOD": ["这里是取消打勾后要还原的新特效路径"]
+                }
+            }
+        ]
+    } 
+]
+</code>
+  
+  1.注意最外层是一个数组。   
+  
+  2.注意items是一个数组。   
+  
+  3.注意NewMOD和OldMOD也是数组，并且长度相同。   
+  
+  4.注意NewMOD和OldMOD的路径是config开头到对应的修改补丁的Art或者Metadata，例子： "NewMOD": ["config/MOD/CharacterEssenceWings/newEffects/Metadata"]   
+  
+  
+  
+  
+   效果如：  
+   
+   
+![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/diytab.jpg)
+
+
