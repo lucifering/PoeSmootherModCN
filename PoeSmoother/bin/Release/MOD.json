@@ -40,8 +40,47 @@
         "Name": "- 系列技能特效",
         "Items": [
 		
-
-
+            {               
+                "Content": "- 力量爆破·混沌",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·混沌.preview",
+                    "NewMOD": ["config/MOD/KineticBlastChaos/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastChaos/restoreDefault/Metadata"]
+                }
+            },  {               
+                "Content": "- 力量爆破·火焰",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·火焰.preview",
+                    "NewMOD": ["config/MOD/KineticBlastFire/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastFire/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- 力量爆破·烈焰",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·烈焰.preview",
+                    "NewMOD": ["config/MOD/KineticBlastFire2/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastFire2/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- 力量爆破·物理",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·物理.preview",
+                    "NewMOD": ["config/MOD/KineticBlastPhysical/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastPhysical/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- 力量爆破·落雷",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·落雷.preview",
+                    "NewMOD": ["config/MOD/KineticBlastShavronne/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastShavronne/restoreDefault/Metadata"]
+                }
+            }, 
             {               
                 "Content": "- 烈焰爆破·蓝",              
                 "ToolTip": "",
