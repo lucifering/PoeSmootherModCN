@@ -17,7 +17,8 @@
         public static BaseRecord ReadRecord(BinaryReader br)
         {
             uint length = br.ReadUInt32();
-            string tag = Encoding.ASCII.GetString(br.ReadBytes(4));
+            byte[] rb = br.ReadBytes(4);
+            string tag = Encoding.ASCII.GetString(rb);
 
             switch (tag)
             {
@@ -33,7 +34,9 @@
                 case DirectoryRecord.Tag:
                     return new DirectoryRecord(length, br);
             }
-            throw new Exception("Invalid tag");
+
+            
+            throw new Exception(string.Format("Invalid tag:{0}-{1}-{2}-{3}", rb[0].ToString("X2"), rb[1].ToString("X2"), rb[2].ToString("X2"), rb[3].ToString("X2")));
         }
     }
 }

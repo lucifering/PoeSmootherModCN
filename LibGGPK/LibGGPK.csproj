@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +53,12 @@
     <Compile Include="GGPK.cs" />
     <Compile Include="GGPK_Records\FreeRecord.cs" />
     <Compile Include="GGPK_Records\GGPKRecord.cs" />
+    <Compile Include="LogUtil\Dirs.cs" />
+    <Compile Include="LogUtil\Log.cs" />
+    <Compile Include="LogUtil\LogType.cs" />
+    <Compile Include="LogUtil\Msg.cs" />
+    <Compile Include="LogUtil\MsgType.cs" />
+    <Compile Include="LogUtil\P.cs" />
     <Compile Include="Murmur.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecordFactory.cs" />

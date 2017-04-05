@@ -5,6 +5,7 @@
     using System.IO;
     using System.Security.Cryptography;
     using System.Text;
+    using UntxPrinter.Untx.LogUtil;
 
     /// <summary>
     /// A file record represents a file entry in the pack file.
@@ -82,6 +83,7 @@
         /// <returns>Path of temporary file containing extracted data</returns>
         public string ExtractTempFile(string ggpkPath)
         {
+            P.t("[ExtractTempFile]ggpkPath=" + ggpkPath );
             string tempFileName = Path.GetTempFileName();
             string modifiedTempFileName = tempFileName + Path.GetExtension(Name);
             File.Move(tempFileName, modifiedTempFileName);
@@ -96,6 +98,7 @@
         /// <param name="outputPath">Path to extract this file to</param>
         public void ExtractFile(string ggpkPath, string outputPath)
         {
+            P.t("[ExtractFile]ggpkPath=" + ggpkPath + " outputPath=" + outputPath);
             byte[] fileData = ReadData(ggpkPath);
             File.WriteAllBytes(outputPath, fileData);
         }
@@ -107,6 +110,7 @@
         /// <param name="outputDirectory">Directory to extract this file to</param>
         public void ExtractFileWithDirectoryStructure(string ggpkPath, string outputDirectory)
         {
+            P.t("[ExtractFileWithDirectoryStructure]ggpkPath=" + ggpkPath + " outputDirectory="+ outputDirectory);
             byte[] fileData = ReadData(ggpkPath);
             string completeOutputDirectory = outputDirectory + Path.DirectorySeparatorChar + GetDirectoryPath();
             Directory.CreateDirectory(completeOutputDirectory);
@@ -120,6 +124,7 @@
         /// <returns>Raw file data</returns>
         public byte[] ReadData(string ggpkPath)
         {
+            P.t("[ReadData]ggpkPath=" + ggpkPath );
             byte[] buffer = new byte[DataLength];
             using (var fs = File.Open(ggpkPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
@@ -199,6 +204,9 @@
         /// <param name="freeRecordRoot">Root of the Free record list</param>
         public void ReplaceContents(string ggpkPath, string replacmentPath, LinkedList<FreeRecord> freeRecordRoot)
         {
+            P.t("[ReplaceContents]ggpkPath=" + ggpkPath + "  replacmentPath=" + replacmentPath);
+           
+
             ReplaceContents(ggpkPath, File.ReadAllBytes(replacmentPath), freeRecordRoot);
         }
 

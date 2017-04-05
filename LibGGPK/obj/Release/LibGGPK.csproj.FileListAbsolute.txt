@@ -37,3 +37,8 @@ F:\dotNet\PoeSmoother-master\LibGGPK\obj\Release\LibGGPK.dll
 F:\dotNet\PoeSmoother-master\LibGGPK\obj\Release\LibGGPK.pdb
 F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\LibGGPK.dll
 F:\dotNet\PoeSmoother-master\PoeSmoother\bin\Release\LibGGPK.pdb
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\LibGGPK.dll
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\LibGGPK.pdb
+F:\dotNet\PoeSmootherModCN\LibGGPK\obj\Release\LibGGPK.dll
+F:\dotNet\PoeSmootherModCN\LibGGPK\obj\Release\LibGGPK.pdb
+F:\dotNet\PoeSmootherModCN\LibGGPK\obj\Release\LibGGPK.csprojResolveAssemblyReference.cache
