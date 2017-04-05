@@ -2,8 +2,10 @@
 ===================================  
 Chinese version of PoeSmoother, with MOD special effects replacement function
 
-Download:https://github.com/lucifering/PoeSmootherModCN/raw/master/POE%E7%89%B9%E6%95%88%E7%AE%80%E5%8C%96%26DIY%20PoeSmoother%E4%B8%AD%E6%96%87%2BMOD%20V1.0002.zip  
+Download:
+https://github.com/lucifering/PoeSmootherModCN/archive/master.zip
 
+（The integrated development environment is：Visual Studio 2015.  program file is below \bin\Release）
 
 OR：  
 

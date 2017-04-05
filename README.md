@@ -2,14 +2,14 @@
 ===================================  
 中文版本PoeSmoother，带MOD特效替换功能  
 
-下载地址：https://github.com/lucifering/PoeSmootherModCN/raw/master/POE%E7%89%B9%E6%95%88%E7%AE%80%E5%8C%96%26DIY%20PoeSmoother%E4%B8%AD%E6%96%87%2BMOD%20V1.0002.zip  
+下载地址：
+https://github.com/lucifering/PoeSmootherModCN/archive/master.zip
 
+（开发IDE：VS2015。bin\Release 文件夹下面的就是生成的结果）
 
 或：  
 
-http://pan.baidu.com/s/1hsqT8e4  
-
-
+http://pan.baidu.com/s/1hsqT8e4  （百度盘里的可能不是最新的）
   
   
 
