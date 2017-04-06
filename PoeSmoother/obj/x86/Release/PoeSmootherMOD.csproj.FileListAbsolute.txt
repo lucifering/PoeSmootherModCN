@@ -11,7 +11,6 @@ F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmoother_MarkupCompile
 F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\PoeSmoother.exe
 F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\PoeSmoother.pdb
 F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\Ionic.Zip.dll
-F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\LibGGPK.pdb
 F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\MainWindow.baml
 F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmoother.g.resources
 F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmoother.Properties.Resources.resources
