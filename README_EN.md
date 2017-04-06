@@ -9,7 +9,7 @@ https://github.com/lucifering/PoeSmootherModCN/archive/master.zip
 
 OR：  
 
-http://pan.baidu.com/s/1hsqT8e4  
+http://pan.baidu.com/s/1o8EymNo
 
 
   
