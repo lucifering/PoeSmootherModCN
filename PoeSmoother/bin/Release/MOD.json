@@ -34,12 +34,60 @@
                     "NewMOD": ["config/MOD/CharacterEssenceWings/newEffects/Metadata"],
                     "OldMOD": ["config/MOD/CharacterEssenceWings/restoreDefault/Metadata"]
                 }
+            },{               
+                "Content": "- 语音掉落包1",              
+                "ToolTip": "通货地图传奇的内置语音（国际服台服适用） by amsco",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/MOD/Sound1/newEffects/Audio","config/MOD/Sound1/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/Sound1/restoreDefault/Audio","config/MOD/Sound1/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 语音掉落包2",              
+                "ToolTip": "需要配合过滤器使用，根据过滤器定义 by 数灬豆豆",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/MOD/Sound2/newEffects/FMOD"],
+                    "OldMOD": ["config/MOD/Sound2/restoreDefault/FMOD"]
+                }
             }
         ]
     },{
         "Name": "- 系列技能特效",
         "Items": [
-		
+		{               
+                "Content": "- 飞刃风暴·蓝",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·蓝.preview",
+                    "NewMOD": ["config/MOD/BladeVortexBlue/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexBlue/restoreDefault/Art"]
+                }
+            }, {               
+                "Content": "- 飞刃风暴·紫",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·紫.preview",
+                    "NewMOD": ["config/MOD/BladeVortexPurple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexPurple/restoreDefault/Art"]
+                }
+            }, {               
+                "Content": "- 飞刃风暴·红",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·红.preview",
+                    "NewMOD": ["config/MOD/BladeVortexRed/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexRed/restoreDefault/Art"]
+                }
+            },  {               
+                "Content": "- 飞刃风暴·黄",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·黄.preview",
+                    "NewMOD": ["config/MOD/BladeVortexYellow/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexYellow/restoreDefault/Art"]
+                }
+            }, 
             {               
                 "Content": "- 力量爆破·混沌",              
                 "ToolTip": "",
