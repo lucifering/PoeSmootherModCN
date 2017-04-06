@@ -360,6 +360,20 @@
                     if (Path.DirectorySeparatorChar != '/')
                     {
                         fixedFileName = fixedFileName.Replace('/', Path.DirectorySeparatorChar);
+                        if (fixedFileName != null ) {
+                            if (fixedFileName.StartsWith("ROOT\\"))
+                            {
+                                fixedFileName = fixedFileName.Substring("ROOT\\".Length);
+
+                            }
+                            if (fixedFileName.StartsWith("\\")) {
+                                fixedFileName = fixedFileName.Substring("\\".Length);
+                            }
+                           
+
+                        }
+                        Console.WriteLine("fixedFileName="+ fixedFileName);
+
                     }
                     if (!RecordsByPath.ContainsKey(fixedFileName))
                     {
@@ -373,6 +387,7 @@
                         RecordsByPath[fixedFileName].ReplaceContents(ggpkPath, replacementData, content.FreeRoot);
                     }
                 }
+                OutputLine("【结束】");
             }
         }
 
@@ -472,7 +487,7 @@
                                     {
                                         for (int j = 0; j < itemlist.Count; j++)
                                         {
-                                            Console.WriteLine(i + "<CB>" + j);
+                                           // Console.WriteLine(i + "<CB>" + j);
                                             JObject obItem = JObject.Parse(itemlist[j].ToString());
                                             CheckBox cb = new CheckBox();
                                             cb.Content = obItem.GetValue("Content") == null ? "" : obItem.GetValue("Content").ToString();
@@ -481,7 +496,10 @@
                                             cb.IsChecked = false;
                                             cb.Background = null;
                                             cb.FontSize = 14;
-                                            cb.ToolTip = obItem.GetValue("ToolTip") == null ? "" : obItem.GetValue("ToolTip").ToString();
+                                            string tip = obItem.GetValue("ToolTip") == null ? "" : obItem.GetValue("ToolTip").ToString();
+                                            if (!tip.Equals("")) {
+                                                cb.ToolTip = tip;
+                                            }
                                             cb.Padding = new Thickness(3, -3, 0, 0);
                                             cb.Margin = new Thickness(5, 0, 0, 0);
                                             cb.Foreground = new SolidColorBrush(Color.FromRgb(217, 210, 199));
@@ -506,9 +524,9 @@
 
                     }
                 }
-                catch
+                catch(Exception e1)
                 {
-                    //   MessageBox.Show("准备解析Json：" + jsonText);
+                       MessageBox.Show("解析MOD.json文件失败：" + e1.Message);
 
                 }
             }
