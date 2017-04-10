@@ -43,12 +43,20 @@
                     "OldMOD": ["config/MOD/Sound1/restoreDefault/Audio","config/MOD/Sound1/restoreDefault/Metadata"]
                 }
             },{               
-                "Content": "- 语音掉落包2",              
+                "Content": "- 语音掉落包·炉石",              
                 "ToolTip": "需要配合过滤器使用，根据过滤器定义 by 数灬豆豆",
                 "Tag": {
                     "ToolTipImg": "",
                     "NewMOD": ["config/MOD/Sound2/newEffects/FMOD"],
                     "OldMOD": ["config/MOD/Sound2/restoreDefault/FMOD"]
+                }
+            },{               
+                "Content": "- 语音掉落包·女声",              
+                "ToolTip": "需要配合过滤器使用，根据过滤器定义 by 白閷在鉨",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/MOD/Sound3/newEffects/FMOD"],
+                    "OldMOD": ["config/MOD/Sound3/restoreDefault/FMOD"]
                 }
             }
         ]
