@@ -1,0 +1,140 @@
+[
+    {
+        "Name": "- 移除特效：",
+        "Items": [
+            {               
+                "Content": "- 裂痕联盟",              
+                "ToolTip": "移除裂痕怪物特效和粒子",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/BreachLeague/removeEffects/Metadata"],
+                    "OldMOD": ["config/BreachLeague/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 粒子特效",              
+                "ToolTip": "移除下雨、烟雾、瓦尔区域特效、额外鲜血等.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Particles/removeEffects/Metadata"],
+                    "OldMOD": ["config/Particles/removeEffects/Metadata"]
+                }
+            },{               
+                "Content": "- 环境",              
+                "ToolTip": "修改或移除环境特效，像光线、阴影、壁炉、瀑布、虫子、鸟、风等.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Environment/removeEffects/Metadata"],
+                    "OldMOD": ["config/Environment/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 商城特效",              
+                "ToolTip": "移除许多迷宫特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Micro/removeEffects/Metadata"],
+                    "OldMOD": ["config/Micro/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    } , {
+        "Name": "- 移除其他：",
+        "Items": [
+            {               
+                "Content": "- 特效 声音",              
+                "ToolTip": "移除宠物和其他动物的声音和特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/OtherEffects/removeEffects/Metadata"],
+                    "OldMOD": ["config/OtherEffects/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 尸体",              
+                "ToolTip": "移除怪物死亡后的尸体，这个对某些技能可能会产生崩溃.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/DeadBodies/removeEffects/Metadata"],
+                    "OldMOD": ["config/DeadBodies/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 自定义特效",              
+                "ToolTip": "所有自定义的特效，这个文件夹下面的/Metadata...",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Custom/removeEffects/Metadata"],
+                    "OldMOD": ["config/Custom/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    }  ,{
+        "Name": "- 移除声音:",
+        "Items": [
+            {               
+                "Content": "- 怪物静音",              
+                "ToolTip": "移除所有怪物声音",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Sounds/SilentMonsters/removeEffects/Metadata"],
+                    "OldMOD": ["config/Sounds/SilentMonsters/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 技能静音",              
+                "ToolTip": "移除以下声音特效：魔像、角色、传送门、传送阵、充能、一些词缀",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Sounds/SilentSkills/removeEffects/Metadata"],
+                    "OldMOD": ["config/Sounds/SilentSkills/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    } ,{
+        "Name": "- 禁用shaders:",
+        "Items": [
+            {               
+                "Content": "- 雾和阴影",              
+                "ToolTip": "视觉上禁用雾霾、阴影等(dx11).",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Shaders/removeEffects/Shaders"],
+                    "OldMOD": ["config/Shaders/restoreDefault/Shaders"]
+                }
+            }
+        ]
+    }  ,{
+        "Name": "- 私有:",
+        "Items": [
+            {               
+                "Content": "- 技能",              
+                "ToolTip": "private skill effects for special users..",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/PrivateEffects/removeEffects/Metadata"],
+                    "OldMOD": ["config/PrivateEffects/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 反射词缀",              
+                "ToolTip": "一些反射词缀的特效.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/UiChanges/replaceUiFiles/Art"],
+                    "OldMOD": ["config/UiChanges/replaceUiFiles/Art"]
+                }
+            },{               
+                "Content": "- 无特效",              
+                "ToolTip": "移除所有的特效（怪物光环/光效/特效 环境烟雾/光效 所有技能特效）",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/ZeroEffects/removeEffects/Metadata"],
+                    "OldMOD": ["config/ZeroEffects/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 无粒子特效",              
+                "ToolTip": "移除或者恢复所有粒子特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/ZeroParticles/removeEffects/Shaders"],
+                    "OldMOD": ["config/ZeroParticles/restoreDefault/Shaders"]
+                }
+            }
+        ]
+    } 
+]

@@ -1,152 +1,225 @@
 <?xml version="1.0"?>
 <ArrayOfResource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Resource Tag="About_Msg_1">
+    <Text>- Remember to back up your Client.ggpk before starting to change anything.</Text>
+  </Resource>
+  <Resource Tag="About_Msg_2">
+    <Text>- To reset things to default, just check / uncheck the options twice.</Text>
+  </Resource>
+  <Resource Tag="About_Msg_3">
+    <Text>- Skills have 3 options: improved(lagless),zero effects(invisible effects) and default values(original game effects). Check them twice if you change your mind, from zero to improved or just to leave them by default.</Text>
+  </Resource>
+  <Resource Tag="About_Msg_4">
+    <Text>- Paths used by customs options:__BREAK__&gt; particles: Metadata/...__BREAK__&gt; sounds: Metadata/...__BREAK__&gt; skills: Metadata/...__BREAK__&gt; ui changes: Art/...</Text>
+  </Resource>
+  <Resource Tag="About_Msg_5">
+    <Text>zero effects equals to: no sounds and effects for monsters/skills.</Text>
+  </Resource>
+  <Resource Tag="About_Msg_6">
+    <Text>*Compile/MOD:光影路西法. based on PoeSmoother.</Text>
+  </Resource>
+  <Resource Tag="About_Msg_7">
+    <Text>&lt;Github-SourceCode&gt;</Text>
+  </Resource>
+  <Resource Tag="About_Msg_7_2">
+    <Text>View in browser</Text>
+  </Resource>
+  <Resource Tag="About_Msg_8">
+    <Text>&lt;My Blog&gt;</Text>
+  </Resource>
+  <Resource Tag="About_Msg_8_2">
+    <Text>View in browser</Text>
+  </Resource>
+  <Resource Tag="All_Done">
+    <Text>&lt;Complete!&gt;</Text>
+  </Resource>
   <Resource Tag="DatViewer_Button_ExportCSV">
-    <Text>导出 CSV</Text>
+    <Text>Export CSV</Text>
   </Resource>
   <Resource Tag="DatViewer_Button_Save">
-    <Text>保存</Text>
+    <Text>Save</Text>
   </Resource>
   <Resource Tag="DatViewer_ExportCSV_Failed">
-    <Text>保存为 CSV 文件失败: {0}</Text>
+    <Text>Failed to save CSV file: {0}</Text>
   </Resource>
   <Resource Tag="DatViewer_ExportCSV_Successful">
-    <Text>保存 CSV 文件到 {0}</Text>
+    <Text>Saved CSV file to {0}</Text>
   </Resource>
   <Resource Tag="DatViewer_ExportCSV_Successful_Caption">
-    <Text>保存为 CSV 成功</Text>
+    <Text>Successfully saved CSV</Text>
   </Resource>
   <Resource Tag="DatWrapper_ParseDatFile_Failed">
-    <Text>读取 dat 失败: {0}</Text>
+    <Text>Failed to read dat: {0}</Text>
   </Resource>
   <Resource Tag="DatWrapper_ParseDatFile_Unsupported_File">
-    <Text>没有文件处理程序 {0}</Text>
+    <Text>No handler for file {0}</Text>
   </Resource>
   <Resource Tag="DatWrapper_Save_Failed">
-    <Text>保存失败: {0}</Text>
+    <Text>Failed to save: {0}</Text>
   </Resource>
   <Resource Tag="DatWrapper_Save_Successful">
-    <Text>已保存 '{0}'</Text>
+    <Text>Saved '{0}'</Text>
   </Resource>
   <Resource Tag="DatWrapper_Save_Successful_Caption">
-    <Text>已保存</Text>
+    <Text>Saved</Text>
   </Resource>
   <Resource Tag="Error_Caption">
-    <Text>错误</Text>
+    <Text>Error</Text>
   </Resource>
   <Resource Tag="Error_Read_Directory_Tree">
-    <Text>读取目录树失败: {0}</Text>
+    <Text>Failed to read directory tree: {0}</Text>
   </Resource>
   <Resource Tag="ExportAllItemsInDirectory_Default_FileName">
     <Text>selectedRecord.Name</Text>
   </Resource>
   <Resource Tag="ExportAllItemsInDirectory_Failed">
-    <Text>导出文件失败: {0}</Text>
+    <Text>Failed to export item(s): {0}</Text>
   </Resource>
   <Resource Tag="ExportAllItemsInDirectory_Successful">
-    <Text>导出 {0} 文件</Text>
+    <Text>Exported {0} files</Text>
   </Resource>
   <Resource Tag="ExportAllItemsInDirectory_Successful_Caption">
-    <Text>导出成功</Text>
+    <Text>Export successful</Text>
   </Resource>
   <Resource Tag="ExportSelectedItem_Failed">
-    <Text>导出文件失败: {0}</Text>
+    <Text>Failed to export item: {0}</Text>
   </Resource>
   <Resource Tag="ExportSelectedItem_Successful">
-    <Text>导出 {0} 字节</Text>
+    <Text>Exported {0} bytes</Text>
+  </Resource>
+  <Resource Tag="JSON_Parse_Failed">
+    <Text>JSON Parse Failed:</Text>
   </Resource>
   <Resource Tag="LabelFileOFfset_Content">
-    <Text>文件偏移量:</Text>
+    <Text>File Offset:</Text>
   </Resource>
   <Resource Tag="Load_GGPK_Filter">
     <Text>GGPK Pack File|*.ggpk</Text>
   </Resource>
+  <Resource Tag="MainWindow_Button_Exit">
+    <Text>Exit</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Button_Location_CN">
+    <Text>切换为中文</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Button_Location_US">
+    <Text>Switch to English</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Button_Min">
+    <Text>Minimize</Text>
+  </Resource>
   <Resource Tag="MainWindow_Drop_Failed">
-    <Text>只能拉取单独一个文件、文件夹或zip压缩包</Text>
+    <Text>Can only drop a single file, directory, or zip file</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Error_File_Nofound">
+    <Text>File Nofound:</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Error_In">
+    <Text>At  </Text>
   </Resource>
   <Resource Tag="MainWindow_HandleDropArchive_Info">
-    <Text>应用内容到 {0}</Text>
+    <Text>Applying contents of {0}</Text>
   </Resource>
   <Resource Tag="MainWindow_HandleDropDirectory_Count">
-    <Text>文件数量 = {0}</Text>
+    <Text>File count = {0}</Text>
   </Resource>
   <Resource Tag="MainWindow_HandleDropDirectory_Failed">
-    <Text>不能替换文件  {0} -&gt; 找不到</Text>
+    <Text>Unable to replace file {0} -&gt; Missing</Text>
   </Resource>
   <Resource Tag="MainWindow_HandleDropDirectory_Replace">
-    <Text>替换中 {0}</Text>
+    <Text>Replacing {0}</Text>
   </Resource>
   <Resource Tag="MainWindow_HandleDropFile_Failed">
-    <Text>必须在左边的目录树中选择一个要替换的目标文件</Text>
+    <Text>Must select a file to replace in the tree view</Text>
   </Resource>
   <Resource Tag="MainWindow_HandleDropFile_Replace">
-    <Text>替换中 {0}{1}</Text>
+    <Text>Replacing {0}{1}</Text>
   </Resource>
   <Resource Tag="MainWindow_Label_FileHash">
     <Text>Hash:</Text>
   </Resource>
   <Resource Tag="MainWindow_Label_FileNameHash">
-    <Text>名字 Hash:</Text>
+    <Text>Name Hash:</Text>
   </Resource>
   <Resource Tag="MainWindow_Label_FileOffset">
-    <Text>文件偏移量:</Text>
+    <Text>File Offset:</Text>
   </Resource>
   <Resource Tag="MainWindow_Label_FileSize">
-    <Text>文件大小:</Text>
+    <Text>File Size:</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Location_Msg">
+    <Text>*** Successful! Please restart the program ***__BREAK__***切换成功，请重新打开程序生效***</Text>
   </Resource>
   <Resource Tag="MainWindow_Menu_Export">
-    <Text>导出</Text>
+    <Text>Export</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Menu_Recovery">
+    <Text>Recovery</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Menu_Recovery_Success">
+    <Text>Recovery Success!</Text>
   </Resource>
   <Resource Tag="MainWindow_Menu_Replace">
-    <Text>替换</Text>
+    <Text>Replace</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Menu_Replace_Success">
+    <Text> Replace Success</Text>
   </Resource>
   <Resource Tag="MainWindow_Menu_View">
-    <Text>查看</Text>
+    <Text>View</Text>
   </Resource>
   <Resource Tag="MainWindow_Title_Readonly">
-    <Text>VisualGGPK (只读模式)</Text>
+    <Text>VisualGGPK (Read-Only)</Text>
   </Resource>
   <Resource Tag="MainWindow_VersionCheck_Failed">
-    <Text>版本检查失败.</Text>
+    <Text>Version check failed.</Text>
   </Resource>
   <Resource Tag="MainWindow_Window_Drop_Confirm">
-    <Text>是否替换文件?</Text>
+    <Text>Replace files?</Text>
   </Resource>
   <Resource Tag="MainWindow_Window_Drop_Confirm_Caption">
-    <Text>确认替换</Text>
+    <Text>Confirm replace</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Window_Tab_Effects_Header">
+    <Text>Effects</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Window_Tab_Info_Header">
+    <Text>About*</Text>
+  </Resource>
+  <Resource Tag="MainWindow_Window_Tab_Skills_Header">
+    <Text>Skills</Text>
   </Resource>
   <Resource Tag="ReloadGGPK_Failed">
-    <Text>读取文件失败: {0}</Text>
+    <Text>Failed to read file: {0}</Text>
   </Resource>
   <Resource Tag="ReloadGGPK_ReadOnly">
-    <Text>***只读模式打开 GGPK（一般是游戏没有退出造成） ***</Text>
+    <Text>***Opening GGPK in read-only mode ***</Text>
   </Resource>
   <Resource Tag="ReloadGGPK_Successful">
-    <Text>全部完成!</Text>
+    <Text>All done!</Text>
   </Resource>
   <Resource Tag="ReloadGGPK_Traversing_Tree">
-    <Text>遍历目录树....</Text>
+    <Text>Traversing tree....</Text>
   </Resource>
   <Resource Tag="ReplaceItem_Failed">
-    <Text>替换文件失败: {0}</Text>
+    <Text>Failed to replace item: {0}</Text>
   </Resource>
   <Resource Tag="ReplaceItem_Readonly">
-    <Text>GGPK处于只读模式</Text>
+    <Text>GGPK open in read-only mode</Text>
   </Resource>
   <Resource Tag="ReplaceItem_Readonly_Caption">
-    <Text>不能写入GGPK</Text>
+    <Text>Cannot write to GGPK</Text>
   </Resource>
   <Resource Tag="ReplaceItem_Successful">
-    <Text>记录 {0} 已更新并更新到偏移量 {1}</Text>
+    <Text>Record {0} updated and relocated to offset {1}</Text>
   </Resource>
   <Resource Tag="ReplaceItem_Successful_Caption">
-    <Text>替换成功</Text>
+    <Text>Replacement successful</Text>
   </Resource>
   <Resource Tag="UpdateDisplayPanel_Failed">
-    <Text> * 无法预览，如需查看请导出后使用正确的软件打开 *
-
-详情: {0}</Text>
+    <Text>* Unable to view item, export it if you want to view it *__BREAK____BREAK__Details: {0}</Text>
   </Resource>
   <Resource Tag="ViewSelectedItem_Failed">
-    <Text>未能提取查看的文件: {0}</Text>
+    <Text>Failed to extract file for viewing: {0}</Text>
   </Resource>
 </ArrayOfResource>

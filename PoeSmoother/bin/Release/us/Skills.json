@@ -1,0 +1,189 @@
+[
+    {
+        "Name": "- improved effects",
+        "Items": [
+            {               
+                "Content": "- arc",              
+                "ToolTip": "removed shock animation effect that was making lag",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Arc/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Arc/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- arctic breath",              
+                "ToolTip": "removed chilled ground who make the skill laggy and some other effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Arctic Breath/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Arctic Breath/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- ball lightning",              
+                "ToolTip": "removed some of the effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Ball Lightning/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Ball Lightning/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- bladefall",              
+                "ToolTip": "just improved",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Bladefall/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Bladefall/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- blade vortex",              
+                "ToolTip": "removed 6 blades and the sound from them",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Blade Vortex/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Blade Vortex/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- discharge",              
+                "ToolTip": "removed some laggy effects and sounds",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Discharge/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Discharge/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- herald of ice",              
+                "ToolTip": "removed explosion and other laggy effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Herald Of Ice/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Herald Of Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- lightning strike",              
+                "ToolTip": "removed many effects to make it work",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Lightning Strike/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Lightning Strike/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- storm call",              
+                "ToolTip": "improved effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Storm Call/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Storm Call/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- whispering ice",              
+                "ToolTip": "improved effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/WhisperingIce/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/WhisperingIce/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- other skills",              
+                "ToolTip": "improved: - frost bomb, sunder, earthquake...",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Other Skills/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Other Skills/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    } ,{
+        "Name": "- zero effects",
+        "Items": [
+            {               
+                "Content": "- arc",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Arc/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Arc/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- arctic breath",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Arctic Breath/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Arctic Breath/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- ball lightning",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Ball Lightning/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Ball Lightning/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- bladefall",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Bladefall/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Bladefall/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- blade vortex",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Blade Vortex/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Blade Vortex/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- discharge",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Discharge/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Discharge/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- herald of ice",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Herald Of Ice/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Herald Of Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- lightning strike",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Lightning Strike/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Lightning Strike/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- storm call",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Storm Call/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Storm Call/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- whispering ice",              
+                "ToolTip": "invisible effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/WhisperingIce/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/WhisperingIce/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- other skills",              
+                "ToolTip": "invisible effects:- frost bomb, sunder, earthquake...",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Other Skills/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Other Skills/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    } 
+]

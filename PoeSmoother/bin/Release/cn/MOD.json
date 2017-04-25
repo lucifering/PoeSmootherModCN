@@ -1,0 +1,277 @@
+[
+    {
+        "Name": "- 角色修改",
+        "Items": [
+            {               
+                "Content": "- 黑发白衣贵族",              
+                "ToolTip": "黑发白衣贵族 by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发白衣贵族.preview",
+                    "NewMOD": ["config/MOD/CharacterAdventurer1/newEffects/Art"],
+                    "OldMOD": ["config/MOD/CharacterAdventurer1/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 黑发黑衣女巫",              
+                "ToolTip": "黑发黑衣女巫 by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发黑衣女巫.preview",
+                    "NewMOD": ["config/MOD/CharacterWitch2/newEffects/Art"],
+                    "OldMOD":[ "config/MOD/CharacterWitch2/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 黑发白衣女巫",              
+                "ToolTip": "黑发白衣女巫 by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发白衣女巫.preview",
+                    "NewMOD":[ "config/MOD/CharacterWitch1/newEffects/Art"],
+                    "OldMOD": ["config/MOD/CharacterWitch1/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 精髓背饰转烟雾翅膀",              
+                "ToolTip": "精髓背饰转烟雾翅膀 by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/精髓背饰转烟雾翅膀.preview",
+                    "NewMOD": ["config/MOD/CharacterEssenceWings/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/CharacterEssenceWings/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 语音掉落包1",              
+                "ToolTip": "通货地图传奇的内置语音（国际服台服适用） by amsco",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/MOD/Sound1/newEffects/Audio","config/MOD/Sound1/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/Sound1/restoreDefault/Audio","config/MOD/Sound1/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 语音掉落包·炉石",              
+                "ToolTip": "需要配合过滤器使用，根据过滤器定义 by 数灬豆豆",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/MOD/Sound2/newEffects/FMOD"],
+                    "OldMOD": ["config/MOD/Sound2/restoreDefault/FMOD"]
+                }
+            },{               
+                "Content": "- 语音掉落包·女声",              
+                "ToolTip": "需要配合过滤器使用，根据过滤器定义 by 白閷在鉨",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/MOD/Sound3/newEffects/FMOD"],
+                    "OldMOD": ["config/MOD/Sound3/restoreDefault/FMOD"]
+                }
+            }
+        ]
+    },{
+        "Name": "- 系列技能特效",
+        "Items": [
+		{               
+                "Content": "- 飞刃风暴·蓝",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·蓝.preview",
+                    "NewMOD": ["config/MOD/BladeVortexBlue/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexBlue/restoreDefault/Art"]
+                }
+            }, {               
+                "Content": "- 飞刃风暴·紫",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·紫.preview",
+                    "NewMOD": ["config/MOD/BladeVortexPurple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexPurple/restoreDefault/Art"]
+                }
+            }, {               
+                "Content": "- 飞刃风暴·红",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·红.preview",
+                    "NewMOD": ["config/MOD/BladeVortexRed/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexRed/restoreDefault/Art"]
+                }
+            },  {               
+                "Content": "- 飞刃风暴·黄",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·黄.preview",
+                    "NewMOD": ["config/MOD/BladeVortexYellow/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexYellow/restoreDefault/Art"]
+                }
+            }, 
+            {               
+                "Content": "- 力量爆破·混沌",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·混沌.preview",
+                    "NewMOD": ["config/MOD/KineticBlastChaos/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastChaos/restoreDefault/Metadata"]
+                }
+            },  {               
+                "Content": "- 力量爆破·火焰",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·火焰.preview",
+                    "NewMOD": ["config/MOD/KineticBlastFire/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastFire/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- 力量爆破·烈焰",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·烈焰.preview",
+                    "NewMOD": ["config/MOD/KineticBlastFire2/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastFire2/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- 力量爆破·物理",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·物理.preview",
+                    "NewMOD": ["config/MOD/KineticBlastPhysical/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastPhysical/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- 力量爆破·落雷",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·落雷.preview",
+                    "NewMOD": ["config/MOD/KineticBlastShavronne/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastShavronne/restoreDefault/Metadata"]
+                }
+            }, 
+            {               
+                "Content": "- 烈焰爆破·蓝",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·蓝.preview",
+                    "NewMOD": ["config/MOD/FlameBlastBlue/newEffects/Metadata","config/MOD/FlameBlastBlue/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastBlue/restoreDefault/Metadata","config/MOD/FlameBlastBlue/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 烈焰爆破·灰",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·灰.preview",
+                    "NewMOD": ["config/MOD/FlameBlastGray/newEffects/Metadata","config/MOD/FlameBlastGray/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastGray/restoreDefault/Metadata","config/MOD/FlameBlastGray/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 烈焰爆破·绿",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·绿.preview",
+                    "NewMOD": ["config/MOD/FlameBlastGreen/newEffects/Metadata","config/MOD/FlameBlastGreen/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastGreen/restoreDefault/Metadata","config/MOD/FlameBlastGreen/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 烈焰爆破·紫",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·紫.preview",
+                    "NewMOD": ["config/MOD/FlameBlastPurple/newEffects/Metadata","config/MOD/FlameBlastPurple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastPurple/restoreDefault/Metadata","config/MOD/FlameBlastPurple/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 烈焰爆破·黄",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·黄.preview",
+                    "NewMOD": ["config/MOD/FlameBlastYellow/newEffects/Metadata","config/MOD/FlameBlastYellow/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastYellow/restoreDefault/Metadata","config/MOD/FlameBlastYellow/restoreDefault/Art"]
+                }
+            },
+            {               
+                "Content": "- 冰手转冰凌地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转闪电落雷",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转闪电落雷.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Thunder/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Thunder/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转火焰",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转火焰.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Fire/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Fire/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰手转紫色电气地面",              
+                "ToolTip": "by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转紫色电气地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Purple/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Purple/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    },{
+        "Name": "- 技能特效",
+        "Items": [
+            {               
+                "Content": "- 火雨改流星雨",              
+                "ToolTip": "by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/火雨改流星雨.preview",
+                    "NewMOD": ["config/MOD/FireStrom2start/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FireStrom2start/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 灵投圣权转紫",              
+                "ToolTip": "需要商城的金色灵投皮肤 by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/灵投圣权转紫.preview",
+                    "NewMOD": ["config/MOD/SpectralThrow2Purple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/SpectralThrow2Purple/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- 冰火双龙炫彩纪律",              
+                "ToolTip": "仅支持国际服和台服 by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰火双龙炫彩纪律.preview",
+                    "NewMOD": ["config/MOD/Discipline2IcefireColor/newEffects/Metadata","config/MOD/Discipline2IcefireColor/newEffects/Art"],
+                    "OldMOD": ["config/MOD/Discipline2IcefireColor/restoreDefault/Metadata","config/MOD/Discipline2IcefireColor/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 虚空匕首·虚影之星",              
+                "ToolTip": "by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/虚空匕首·虚影之星.preview",
+                    "NewMOD": ["config/MOD/EtherealKnivew2DarkGreen/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/EtherealKnivew2DarkGreen/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 烈焰风暴·烈焰焚城",              
+                "ToolTip": "by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰风暴·烈焰焚城.preview",
+                    "NewMOD": ["config/MOD/FireStrom2BrundCity/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/FireStrom2BrundCity/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 解放·炎光",              
+                "ToolTip": "by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/解放·炎光.preview",
+                    "NewMOD": ["config/MOD/Discharge2Flare/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/Discharge2Flare/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 电弧闪电传送·红",              
+                "ToolTip": "by 阿帕契公主",
+                "Tag": {
+                    "ToolTipImg": "/mod/电弧闪电传送·红.preview",
+                    "NewMOD": ["config/MOD/Arc2Red/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/Arc2Red/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    }
+]

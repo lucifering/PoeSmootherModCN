@@ -5,6 +5,7 @@
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
+    using System.Reflection;
     using System.Xml;
     using System.Xml.Serialization;
 
@@ -13,6 +14,8 @@
         public static readonly Settings Strings = new Settings();
         private static readonly string SettingsPath = typeof(Settings).Namespace + "." + "i18n.xml";
         private static readonly Dictionary<string, string> UserStrings = new Dictionary<string, string>();
+
+        public static bool isEn = true;
 
         [Serializable]
         [XmlType("Resource")]
@@ -25,7 +28,10 @@
             public string Text { get; set; }
         }
 
-        public string this[string tag] => UserStrings.ContainsKey(tag) ? UserStrings[tag] : Resources.ResourceManager.GetString(tag);
+        
+
+
+        public string this[string tag] => UserStrings.ContainsKey(tag) ? UserStrings[tag] : (isEn? Resources_enUS.ResourceManager.GetString(tag):Resources.ResourceManager.GetString(tag));
 
         static Settings()
         {
@@ -48,7 +54,8 @@
         {
             Dictionary<string, string> derp = new Dictionary<string, string>();
 
-            foreach (var propertyInfo in typeof(Resources).GetProperties())
+            PropertyInfo[] tmpPropertyInfo = isEn ? typeof(Resources_enUS).GetProperties() : typeof(Resources).GetProperties();
+            foreach (var propertyInfo in tmpPropertyInfo)
             {
                 object propValue = propertyInfo.GetValue(null, null);
 

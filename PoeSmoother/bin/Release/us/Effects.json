@@ -1,0 +1,140 @@
+﻿[
+    {
+        "Name": "- remove effects:",
+        "Items": [
+            {               
+                "Content": "- breach league",              
+                "ToolTip": "removes breach monster effects and particles",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/BreachLeague/removeEffects/Metadata"],
+                    "OldMOD": ["config/BreachLeague/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- particles",              
+                "ToolTip": "removes rain,smoke,vaal area effects,extra gore...etc.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Particles/removeEffects/Metadata"],
+                    "OldMOD": ["config/Particles/removeEffects/Metadata"]
+                }
+            },{               
+                "Content": "- environments",              
+                "ToolTip": "does changes or remove enviro effects like ligths,shadows,fireplaces,waterfalls,bugs,birds,wind,...etc.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Environment/removeEffects/Metadata"],
+                    "OldMOD": ["config/Environment/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- microtransactions",              
+                "ToolTip": "removes lots of labyrinth effects",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Micro/removeEffects/Metadata"],
+                    "OldMOD": ["config/Micro/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    } , {
+        "Name": "- remove other:",
+        "Items": [
+            {               
+                "Content": "- effects &amp; sounds",              
+                "ToolTip": "removes pets and critters and other effects and sounds.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/OtherEffects/removeEffects/Metadata"],
+                    "OldMOD": ["config/OtherEffects/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- dead bodies",              
+                "ToolTip": "removes dead bodies after kills, may cause crashes with some mobs!",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/DeadBodies/removeEffects/Metadata"],
+                    "OldMOD": ["config/DeadBodies/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- custom effects",              
+                "ToolTip": "folder used for any other custom effects that starts with /Metadata...",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Custom/removeEffects/Metadata"],
+                    "OldMOD": ["config/Custom/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    }  ,{
+        "Name": "- remove sounds:",
+        "Items": [
+            {               
+                "Content": "- silent monsters",              
+                "ToolTip": "removes all monster sounds.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Sounds/SilentMonsters/removeEffects/Metadata"],
+                    "OldMOD": ["config/Sounds/SilentMonsters/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- silent skills",              
+                "ToolTip": "removes sound effects from golems, chars, portals, waypoints, charges, some mobs.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Sounds/SilentSkills/removeEffects/Metadata"],
+                    "OldMOD": ["config/Sounds/SilentSkills/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    } ,{
+        "Name": "- disable shaders:",
+        "Items": [
+            {               
+                "Content": "- fog and shadows",              
+                "ToolTip": "visualy disable fog, shadows...etc (dx11).",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Shaders/removeEffects/Shaders"],
+                    "OldMOD": ["config/Shaders/restoreDefault/Shaders"]
+                }
+            }
+        ]
+    }  ,{
+        "Name": "- private:",
+        "Items": [
+            {               
+                "Content": "- skills",              
+                "ToolTip": "private skill effects for special users..",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/PrivateEffects/removeEffects/Metadata"],
+                    "OldMOD": ["config/PrivateEffects/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- reflect mods",              
+                "ToolTip": "smoke effects for reflect mods.",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/UiChanges/replaceUiFiles/Art"],
+                    "OldMOD": ["config/UiChanges/replaceUiFiles/Art"]
+                }
+            },{               
+                "Content": "- zero effects*",              
+                "ToolTip": "removes all effects from everything (monster-auras/glow/effects, enviro-smoke/glows/mist, skills-all effects!!!)",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/ZeroEffects/removeEffects/Metadata"],
+                    "OldMOD": ["config/ZeroEffects/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- zero particles",              
+                "ToolTip": "remove/restore all particles from everything",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/ZeroParticles/removeEffects/Shaders"],
+                    "OldMOD": ["config/ZeroParticles/restoreDefault/Shaders"]
+                }
+            }
+        ]
+    } 
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "Name": "- 简化特效",
+        "Items": [
+            {               
+                "Content": "- 电弧",              
+                "ToolTip": "移除感电特效动画效果",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Arc/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Arc/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 极地吐息",              
+                "ToolTip": "移除冰缓地面的特效和其他卡机特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Arctic Breath/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Arctic Breath/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 天雷之珠",              
+                "ToolTip": "移除部分特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Ball Lightning/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Ball Lightning/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 虚空刀雨",              
+                "ToolTip": "仅简化",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Bladefall/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Bladefall/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 飞刃风暴",              
+                "ToolTip": "移除6个刀叶和对应的声音",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Blade Vortex/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Blade Vortex/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 解放",              
+                "ToolTip": "移除卡机特效和音效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Discharge/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Discharge/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰霜之捷",              
+                "ToolTip": "移除爆炸特效和其他可能导致卡机的特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Herald Of Ice/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Herald Of Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 闪电打击",              
+                "ToolTip": "为了这个删除了很多特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Lightning Strike/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Lightning Strike/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 风暴呼唤",              
+                "ToolTip": "简化特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Storm Call/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Storm Call/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰风暴",              
+                "ToolTip": "简化特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/WhisperingIce/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/WhisperingIce/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 其他技能",              
+                "ToolTip": "简化：寒霜爆、大地震击、震地……",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Other Skills/removeEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Other Skills/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    } ,{
+        "Name": "- 屏蔽特效",
+        "Items": [
+            {               
+                "Content": "- 电弧",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Arc/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Arc/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 极地吐息",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Arctic Breath/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Arctic Breath/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 天雷之珠",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Ball Lightning/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Ball Lightning/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 虚空刀雨",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Bladefall/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Bladefall/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 飞刃风暴",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Blade Vortex/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Blade Vortex/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 解放",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Discharge/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Discharge/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰霜之捷",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Herald Of Ice/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Herald Of Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 闪电打击",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Lightning Strike/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Lightning Strike/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 风暴呼唤",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Storm Call/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Storm Call/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 冰风暴",              
+                "ToolTip": "屏蔽特效",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/WhisperingIce/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/WhisperingIce/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- 其他技能",              
+                "ToolTip": "屏蔽特效: - 寒霜爆、大地震击、震地……",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/Skills/Other Skills/zeroEffects/Metadata"],
+                    "OldMOD": ["config/Skills/Other Skills/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    } 
+]

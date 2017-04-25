@@ -1,0 +1,269 @@
+[
+    {
+        "Name": "- Characters",
+        "Items": [
+            {               
+                "Content": "- Scion(Black&White)",              
+                "ToolTip": "A Scion with Black hair and white clothes by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发白衣贵族.preview",
+                    "NewMOD": ["config/MOD/CharacterAdventurer1/newEffects/Art"],
+                    "OldMOD": ["config/MOD/CharacterAdventurer1/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- Witch(Black&Black)",              
+                "ToolTip": "A Witch with Black hair and black clothes by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发黑衣女巫.preview",
+                    "NewMOD": ["config/MOD/CharacterWitch2/newEffects/Art"],
+                    "OldMOD":[ "config/MOD/CharacterWitch2/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- Witch(Black&White)",              
+                "ToolTip": "A Witch with Black hair and white clothes  by 光影·路西法",
+                "Tag": {
+                    "ToolTipImg": "/mod/黑发白衣女巫.preview",
+                    "NewMOD":[ "config/MOD/CharacterWitch1/newEffects/Art"],
+                    "OldMOD": ["config/MOD/CharacterWitch1/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- GloomWings",              
+                "ToolTip": "Essence Wings to Gloom Wings by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/精髓背饰转烟雾翅膀.preview",
+                    "NewMOD": ["config/MOD/CharacterEssenceWings/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/CharacterEssenceWings/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- Drop Alert-Hearthstone",              
+                "ToolTip": "sounds from Hearthstone(Chinese),Modify Filter File for different sounds.by 数灬豆豆",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/MOD/Sound2/newEffects/FMOD"],
+                    "OldMOD": ["config/MOD/Sound2/restoreDefault/FMOD"]
+                }
+            },{               
+                "Content": "- Drop Alert-Girl",              
+                "ToolTip": "sounds from Girl(Chinese),Modify Filter File for different sounds by 白閷在鉨",
+                "Tag": {
+                    "ToolTipImg": "",
+                    "NewMOD": ["config/MOD/Sound3/newEffects/FMOD"],
+                    "OldMOD": ["config/MOD/Sound3/restoreDefault/FMOD"]
+                }
+            }
+        ]
+    },{
+        "Name": "- Skill Effects Group",
+        "Items": [
+		{               
+                "Content": "- BladeVortex-Blue",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·蓝.preview",
+                    "NewMOD": ["config/MOD/BladeVortexBlue/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexBlue/restoreDefault/Art"]
+                }
+            }, {               
+                "Content": "- BladeVortex-Purple",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·紫.preview",
+                    "NewMOD": ["config/MOD/BladeVortexPurple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexPurple/restoreDefault/Art"]
+                }
+            }, {               
+                "Content": "- BladeVortex-Red",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·红.preview",
+                    "NewMOD": ["config/MOD/BladeVortexRed/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexRed/restoreDefault/Art"]
+                }
+            },  {               
+                "Content": "- BladeVortex-Yellow",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/飞刃风暴·黄.preview",
+                    "NewMOD": ["config/MOD/BladeVortexYellow/newEffects/Art"],
+                    "OldMOD": ["config/MOD/BladeVortexYellow/restoreDefault/Art"]
+                }
+            }, 
+            {               
+                "Content": "- KineticBlast-Chaos",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·混沌.preview",
+                    "NewMOD": ["config/MOD/KineticBlastChaos/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastChaos/restoreDefault/Metadata"]
+                }
+            },  {               
+                "Content": "- KineticBlast-Fire",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·火焰.preview",
+                    "NewMOD": ["config/MOD/KineticBlastFire/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastFire/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- KineticBlast-Burning",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·烈焰.preview",
+                    "NewMOD": ["config/MOD/KineticBlastFire2/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastFire2/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- KineticBlast-Physics",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·物理.preview",
+                    "NewMOD": ["config/MOD/KineticBlastPhysical/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastPhysical/restoreDefault/Metadata"]
+                }
+            }, {               
+                "Content": "- KineticBlast-Lightning",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/力量爆破·落雷.preview",
+                    "NewMOD": ["config/MOD/KineticBlastShavronne/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/KineticBlastShavronne/restoreDefault/Metadata"]
+                }
+            }, 
+            {               
+                "Content": "- Flameblast-Blue",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·蓝.preview",
+                    "NewMOD": ["config/MOD/FlameBlastBlue/newEffects/Metadata","config/MOD/FlameBlastBlue/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastBlue/restoreDefault/Metadata","config/MOD/FlameBlastBlue/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- Flameblast-Gray",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·灰.preview",
+                    "NewMOD": ["config/MOD/FlameBlastGray/newEffects/Metadata","config/MOD/FlameBlastGray/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastGray/restoreDefault/Metadata","config/MOD/FlameBlastGray/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- Flameblast-Green",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·绿.preview",
+                    "NewMOD": ["config/MOD/FlameBlastGreen/newEffects/Metadata","config/MOD/FlameBlastGreen/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastGreen/restoreDefault/Metadata","config/MOD/FlameBlastGreen/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- Flameblast-Purple",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·紫.preview",
+                    "NewMOD": ["config/MOD/FlameBlastPurple/newEffects/Metadata","config/MOD/FlameBlastPurple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastPurple/restoreDefault/Metadata","config/MOD/FlameBlastPurple/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- Flameblast-Yellow",              
+                "ToolTip": "",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰爆破·黄.preview",
+                    "NewMOD": ["config/MOD/FlameBlastYellow/newEffects/Metadata","config/MOD/FlameBlastYellow/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FlameBlastYellow/restoreDefault/Metadata","config/MOD/FlameBlastYellow/restoreDefault/Art"]
+                }
+            },
+            {               
+                "Content": "- Icicle HOI",              
+                "ToolTip": "Herald of Ice to Icicle.by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转冰凌地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Ice/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Ice/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- Lightning HOI",              
+                "ToolTip": "Herald of Ice to Lightning.by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转闪电落雷.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Thunder/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Thunder/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- Fire HOI",              
+                "ToolTip": "Herald of Ice to Fire.by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转火焰.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Fire/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Fire/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- Lightning Ground HOI",              
+                "ToolTip": "Herald of Ice to Lightning Ground.by 17173-猪猪lei",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰手转紫色电气地面.preview",
+                    "NewMOD": ["config/MOD/GeraldofIce2Purple/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/GeraldofIce2Purple/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    },{
+        "Name": "- Alternate Skill Effects",
+        "Items": [
+            {               
+                "Content": "- Meteor Shower Firestorm",              
+                "ToolTip": "Firestorm to meteor shower.by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/火雨改流星雨.preview",
+                    "NewMOD": ["config/MOD/FireStrom2start/newEffects/Art"],
+                    "OldMOD": ["config/MOD/FireStrom2start/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- Purple Seraph Spectral Throw",              
+                "ToolTip": "Seraph Spectral Throw to Purple.need Seraph Spectral Throw Effects. by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/灵投圣权转紫.preview",
+                    "NewMOD": ["config/MOD/SpectralThrow2Purple/newEffects/Art"],
+                    "OldMOD": ["config/MOD/SpectralThrow2Purple/restoreDefault/Art"]
+                }
+            },{               
+                "Content": "- Dragon Discipline",              
+                "ToolTip": "Discipline to dragon.by 17173-ben",
+                "Tag": {
+                    "ToolTipImg": "/mod/冰火双龙炫彩纪律.preview",
+                    "NewMOD": ["config/MOD/Discipline2IcefireColor/newEffects/Metadata","config/MOD/Discipline2IcefireColor/newEffects/Art"],
+                    "OldMOD": ["config/MOD/Discipline2IcefireColor/restoreDefault/Metadata","config/MOD/Discipline2IcefireColor/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- Ethereal Stars",              
+                "ToolTip": "Ethereal Knives to Ethereal Stars.by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/虚空匕首·虚影之星.preview",
+                    "NewMOD": ["config/MOD/EtherealKnivew2DarkGreen/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/EtherealKnivew2DarkGreen/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- Siege Firestorm",              
+                "ToolTip": "Firestorm to Siege Firestorm.by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/烈焰风暴·烈焰焚城.preview",
+                    "NewMOD": ["config/MOD/FireStrom2BrundCity/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/FireStrom2BrundCity/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- Flare Discharge",              
+                "ToolTip": "Discharge to Flare Discharge.by 17173-剑啸1",
+                "Tag": {
+                    "ToolTipImg": "/mod/解放·炎光.preview",
+                    "NewMOD": ["config/MOD/Discharge2Flare/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/Discharge2Flare/restoreDefault/Metadata"]
+                }
+            },{               
+                "Content": "- Red Arc Lightning Warp",              
+                "ToolTip": " Arc and Lightning Warp-Red.by 阿帕契公主",
+                "Tag": {
+                    "ToolTipImg": "/mod/电弧闪电传送·红.preview",
+                    "NewMOD": ["config/MOD/Arc2Red/newEffects/Metadata"],
+                    "OldMOD": ["config/MOD/Arc2Red/restoreDefault/Metadata"]
+                }
+            }
+        ]
+    }
+]

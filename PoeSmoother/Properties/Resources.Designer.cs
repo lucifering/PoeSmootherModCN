@@ -61,6 +61,109 @@ namespace PoeSmoother.Properties {
         }
         
         /// <summary>
+        ///   查找类似 -【修改前记得备份Content.ggpk文件】 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_1 {
+            get {
+                return ResourceManager.GetString("About_Msg_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 - 勾选即可应用，取消勾选即可还原 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_2 {
+            get {
+                return ResourceManager.GetString("About_Msg_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 - 技能有3种选择：简化（不卡机）、屏蔽特效（完全看不到）和默认（修改前的状态），如果要还原，需要勾选2次，从屏蔽特效到简化或者恢复默认。 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_3 {
+            get {
+                return ResourceManager.GetString("About_Msg_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 - 自定义选项所用的路径:
+        ///&gt; 粒子特效: Metadata/...
+        ///&gt; 声音: Metadata/...
+        ///&gt; 技能: Metadata/...
+        ///&gt; 界面修改: Art/... 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_4 {
+            get {
+                return ResourceManager.GetString("About_Msg_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 *无特效=怪物和技能没有声音和特效. 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_5 {
+            get {
+                return ResourceManager.GetString("About_Msg_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 *编译/汉化/MOD功能：光影路西法. 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_6 {
+            get {
+                return ResourceManager.GetString("About_Msg_6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 【Github·开源】 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_7 {
+            get {
+                return ResourceManager.GetString("About_Msg_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 点击打开英文版更新地址 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_7_2 {
+            get {
+                return ResourceManager.GetString("About_Msg_7_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 【POE博客】 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_8 {
+            get {
+                return ResourceManager.GetString("About_Msg_8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 点击进入我的POE博客 的本地化字符串。
+        /// </summary>
+        public static string About_Msg_8_2 {
+            get {
+                return ResourceManager.GetString("About_Msg_8_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 【结束】 的本地化字符串。
+        /// </summary>
+        public static string All_Done {
+            get {
+                return ResourceManager.GetString("All_Done", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 导出 CSV 的本地化字符串。
         /// </summary>
         public static string DatViewer_Button_ExportCSV {
@@ -223,6 +326,15 @@ namespace PoeSmoother.Properties {
         }
         
         /// <summary>
+        ///   查找类似 解析MOD.json文件失败： 的本地化字符串。
+        /// </summary>
+        public static string JSON_Parse_Failed {
+            get {
+                return ResourceManager.GetString("JSON_Parse_Failed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 文件偏移量: 的本地化字符串。
         /// </summary>
         public static string LabelFileOFfset_Content {
@@ -241,11 +353,65 @@ namespace PoeSmoother.Properties {
         }
         
         /// <summary>
+        ///   查找类似 退出 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Button_Exit {
+            get {
+                return ResourceManager.GetString("MainWindow_Button_Exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 切换为中文 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Button_Location_CN {
+            get {
+                return ResourceManager.GetString("MainWindow_Button_Location_CN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Switch to English 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Button_Location_US {
+            get {
+                return ResourceManager.GetString("MainWindow_Button_Location_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 最小化 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Button_Min {
+            get {
+                return ResourceManager.GetString("MainWindow_Button_Min", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 只能拉取单独一个文件、文件夹或zip压缩包 的本地化字符串。
         /// </summary>
         public static string MainWindow_Drop_Failed {
             get {
                 return ResourceManager.GetString("MainWindow_Drop_Failed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 找不到对应的还原文件,请检查: 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Error_File_Nofound {
+            get {
+                return ResourceManager.GetString("MainWindow_Error_File_Nofound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 位于处理： 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Error_In {
+            get {
+                return ResourceManager.GetString("MainWindow_Error_In", resourceCulture);
             }
         }
         
@@ -340,6 +506,16 @@ namespace PoeSmoother.Properties {
         }
         
         /// <summary>
+        ///   查找类似 ***切换成功，请重新打开程序生效***
+        ///*** Successful! Please restart the program *** 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Location_Msg {
+            get {
+                return ResourceManager.GetString("MainWindow_Location_Msg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 导出 的本地化字符串。
         /// </summary>
         public static string MainWindow_Menu_Export {
@@ -349,11 +525,38 @@ namespace PoeSmoother.Properties {
         }
         
         /// <summary>
+        ///   查找类似 还原 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Menu_Recovery {
+            get {
+                return ResourceManager.GetString("MainWindow_Menu_Recovery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 还原成功 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Menu_Recovery_Success {
+            get {
+                return ResourceManager.GetString("MainWindow_Menu_Recovery_Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 替换 的本地化字符串。
         /// </summary>
         public static string MainWindow_Menu_Replace {
             get {
                 return ResourceManager.GetString("MainWindow_Menu_Replace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  替换成功 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Menu_Replace_Success {
+            get {
+                return ResourceManager.GetString("MainWindow_Menu_Replace_Success", resourceCulture);
             }
         }
         
@@ -399,6 +602,33 @@ namespace PoeSmoother.Properties {
         public static string MainWindow_Window_Drop_Confirm_Caption {
             get {
                 return ResourceManager.GetString("MainWindow_Window_Drop_Confirm_Caption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 特效 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Window_Tab_Effects_Header {
+            get {
+                return ResourceManager.GetString("MainWindow_Window_Tab_Effects_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 信息* 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Window_Tab_Info_Header {
+            get {
+                return ResourceManager.GetString("MainWindow_Window_Tab_Info_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 技能 的本地化字符串。
+        /// </summary>
+        public static string MainWindow_Window_Tab_Skills_Header {
+            get {
+                return ResourceManager.GetString("MainWindow_Window_Tab_Skills_Header", resourceCulture);
             }
         }
         

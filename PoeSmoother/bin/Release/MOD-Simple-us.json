@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "- Title",
+        "Items": [
+            {               
+                "Content": "- Item 1",              
+                "ToolTip": "Item tool tip text",
+                "Tag": {
+                    "ToolTipImg": "/mod/preview image(jpg)",
+                    "NewMOD": ["new mod file path"],
+                    "OldMOD": ["restore default file path"]
+                }
+            }
+        ]
+    } 
+]

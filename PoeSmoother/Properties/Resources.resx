@@ -266,4 +266,84 @@
   <data name="MainWindow_Label_FileNameHash" xml:space="preserve">
     <value>名字 Hash:</value>
   </data>
+  <data name="MainWindow_Button_Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="MainWindow_Button_Location_CN" xml:space="preserve">
+    <value>切换为中文</value>
+  </data>
+  <data name="MainWindow_Button_Location_US" xml:space="preserve">
+    <value>Switch to English</value>
+  </data>
+  <data name="MainWindow_Button_Min" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="All_Done" xml:space="preserve">
+    <value>【结束】</value>
+  </data>
+  <data name="MainWindow_Error_File_Nofound" xml:space="preserve">
+    <value>找不到对应的还原文件,请检查:</value>
+  </data>
+  <data name="MainWindow_Error_In" xml:space="preserve">
+    <value>位于处理：</value>
+  </data>
+  <data name="MainWindow_Location_Msg" xml:space="preserve">
+    <value>***切换成功，请重新打开程序生效***
+*** Successful! Please restart the program ***</value>
+  </data>
+  <data name="MainWindow_Menu_Recovery" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="MainWindow_Menu_Recovery_Success" xml:space="preserve">
+    <value>还原成功</value>
+  </data>
+  <data name="MainWindow_Menu_Replace_Success" xml:space="preserve">
+    <value> 替换成功</value>
+  </data>
+  <data name="About_Msg_1" xml:space="preserve">
+    <value>-【修改前记得备份Content.ggpk文件】</value>
+  </data>
+  <data name="About_Msg_2" xml:space="preserve">
+    <value>- 勾选即可应用，取消勾选即可还原</value>
+  </data>
+  <data name="About_Msg_3" xml:space="preserve">
+    <value>- 技能有3种选择：简化（不卡机）、屏蔽特效（完全看不到）和默认（修改前的状态），如果要还原，需要勾选2次，从屏蔽特效到简化或者恢复默认。</value>
+  </data>
+  <data name="About_Msg_4" xml:space="preserve">
+    <value>- 自定义选项所用的路径:
+&gt; 粒子特效: Metadata/...
+&gt; 声音: Metadata/...
+&gt; 技能: Metadata/...
+&gt; 界面修改: Art/...</value>
+  </data>
+  <data name="About_Msg_5" xml:space="preserve">
+    <value>*无特效=怪物和技能没有声音和特效.</value>
+  </data>
+  <data name="About_Msg_6" xml:space="preserve">
+    <value>*编译/汉化/MOD功能：光影路西法.</value>
+  </data>
+  <data name="About_Msg_7" xml:space="preserve">
+    <value>【Github·开源】</value>
+  </data>
+  <data name="About_Msg_7_2" xml:space="preserve">
+    <value>点击打开英文版更新地址</value>
+  </data>
+  <data name="About_Msg_8" xml:space="preserve">
+    <value>【POE博客】</value>
+  </data>
+  <data name="About_Msg_8_2" xml:space="preserve">
+    <value>点击进入我的POE博客</value>
+  </data>
+  <data name="JSON_Parse_Failed" xml:space="preserve">
+    <value>解析MOD.json文件失败：</value>
+  </data>
+  <data name="MainWindow_Window_Tab_Effects_Header" xml:space="preserve">
+    <value>特效</value>
+  </data>
+  <data name="MainWindow_Window_Tab_Info_Header" xml:space="preserve">
+    <value>信息*</value>
+  </data>
+  <data name="MainWindow_Window_Tab_Skills_Header" xml:space="preserve">
+    <value>技能</value>
+  </data>
 </root>

@@ -83,12 +83,12 @@
         /// <param name="output">Output function</param>
         public void Read(string pathToGgpk, Action<string> output)
         {
-            output?.Invoke("开始解析 GGPK..." + Environment.NewLine);
+            output?.Invoke("GGPK:"+ pathToGgpk + Environment.NewLine);
             ReadRecordOffsets(pathToGgpk, output);
             if (output != null)
             {
                 output(Environment.NewLine);
-                output("正在建立目录树..." + Environment.NewLine);
+                output(">>>" + Environment.NewLine);
             }
             CreateDirectoryTree(output);
         }
