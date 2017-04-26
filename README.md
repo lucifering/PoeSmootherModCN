@@ -2,14 +2,19 @@
 ===================================  
 中文版本PoeSmoother，带MOD特效替换功能  
 
+English README:  
+
+https://github.com/lucifering/PoeSmootherModCN/blob/master/README_EN.md  
+
+
 下载地址：
-https://github.com/lucifering/PoeSmootherModCN/raw/master/PoeSmootherModCN-2017-4-6.7z
+
+https://github.com/lucifering/PoeSmootherModCN/archive/master.zip
 
 （开发IDE：VS2015。bin\Release 文件夹下面的就是生成的结果）
 
 或：  
-
-http://pan.baidu.com/s/1o8EymNo （百度盘里的可能不是最新的）
+http://pan.baidu.com/s/1mi7bSqG （百度盘里的可能不是最新的）
   
   
 
@@ -83,14 +88,14 @@ __________________________________________________________
 ![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/3.jpg)
 
 
+点击下方的国旗图标可以进行切换语言（目前只有简体中文和英文）。
+
 
 
 我的博客:**http://poetw.blog.163.com/** 
 
 
-English README:  
 
-https://github.com/lucifering/PoeSmootherModCN/blob/master/README_EN.md  
 
   
   
