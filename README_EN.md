@@ -5,7 +5,7 @@ Chinese version of PoeSmoother, with MOD special effects replacement function
 Download:
 https://github.com/lucifering/PoeSmootherModCN/archive/master.zip
 
-（The integrated development environment is：Visual Studio 2015.  program file is below \bin\Release）
+(The integrated development environment is：Visual Studio 2015.  program file is below \bin\Release)
 
 OR：  
 
@@ -94,8 +94,9 @@ My blog:**http://poetw.blog.163.com/**
 # Diy your Program  #
 ===================================    
 
-In "cn" and "us" folder,there are 3 files: Effects.json(Effects Tab)  MOD.json(MOD Tab)  Skills.json(Skill Tab)
-you  can modify the file to DIY function.
+In "cn" and "us" folder,there are 3 files: Effects.json(Effects Tab)  MOD.json(MOD Tab)  Skills.json(Skill Tab).
+
+you  can modify the file to DIY your Program.
 
 they all json format and UTF-8 encoding.
 
