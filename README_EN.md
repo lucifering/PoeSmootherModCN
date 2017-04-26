@@ -9,7 +9,7 @@ https://github.com/lucifering/PoeSmootherModCN/archive/master.zip
 
 OR：  
 
-http://pan.baidu.com/s/1o8EymNo
+http://pan.baidu.com/s/1mi7bSqG 
 
 
   
@@ -73,18 +73,61 @@ __________________________________________________________
 
  remove effects:
 
-![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/2.jpg)
+![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/2-2.jpg)
 
 
 Custom MOD:
 
-![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/1.jpg)
+![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/1-2.jpg)
 
 
 
-![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/3.jpg)
+![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/3-2.jpg)
 
 
+Click on the icon to switch languages(only simplified Chinese and English). 
 
 
 My blog:**http://poetw.blog.163.com/** 
+
+
+# Diy your Program  #
+===================================    
+
+In "cn" and "us" folder,there are 3 files: Effects.json(Effects Tab)  MOD.json(MOD Tab)  Skills.json(Skill Tab)
+you  can modify the file to DIY function.
+
+they all json format and UTF-8 encoding.
+
+
+Example：
+<code>
+[
+    {
+        "Name": "- Title",
+        "Items": [
+            {               
+                "Content": "- Item 1",              
+                "ToolTip": "Item tool tip text",
+                "Tag": {
+                    "ToolTipImg": "/mod/preview image(jpg)",
+                    "NewMOD": ["new mod file path"],
+                    "OldMOD": ["restore default file path"]
+                }
+            }
+        ]
+    } 
+]
+</code>
+
+
+
+![image](https://github.com/lucifering/PoeSmootherModCN/blob/master/Screenshot/diytab-2.jpg)
+
+
+
+
+
+
+
+   
