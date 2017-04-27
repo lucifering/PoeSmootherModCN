@@ -54,8 +54,10 @@ GGPK: ****/Content.ggpk
 
 100.00%  
 
->>>
-Traversing tree....
+>>>  
+
+Traversing tree....  
+
 All done!
 
 
