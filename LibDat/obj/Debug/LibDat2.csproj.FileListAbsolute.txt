@@ -1,0 +1,4 @@
+F:\poe\VisualGGPK\VG2Pro\LibDat\bin\Debug\LibDat.dll
+F:\poe\VisualGGPK\VG2Pro\LibDat\bin\Debug\LibDat.pdb
+F:\poe\VisualGGPK\VG2Pro\LibDat\obj\Debug\LibDat.dll
+F:\poe\VisualGGPK\VG2Pro\LibDat\obj\Debug\LibDat.pdb

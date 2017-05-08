@@ -17,6 +17,9 @@
     using System.Windows.Navigation;
     using Newtonsoft.Json.Linq;
     using Newtonsoft.Json;
+    using KUtility;
+    using System.Drawing.Imaging;
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -171,15 +174,30 @@
             if (selectedRecord == null) return;
             try
             {
+                imageOutput.Visibility = Visibility.Hidden;
+                datViewerOutput.Visibility = Visibility.Hidden;
                 switch (selectedRecord.FileFormat)
                 {
                     case FileRecord.DataFormat.Ascii: DisplayAscii(selectedRecord); break;
                     case FileRecord.DataFormat.Unicode: DisplayUnicode(selectedRecord); break;
                     case FileRecord.DataFormat.RichText: DisplayRichText(selectedRecord); break;
+
+
+                    case FileRecord.DataFormat.Image:
+                        DisplayImage(selectedRecord);
+                        break;
+                    case FileRecord.DataFormat.TextureDDS:
+                        DisplayDDS(selectedRecord);
+                        break;
+                    case FileRecord.DataFormat.Dat:
+                        DisplayDat(selectedRecord);
+                        break;
                 }
             }
             catch (Exception ex)
             {
+                imageOutput.Visibility = Visibility.Hidden;
+                datViewerOutput.Visibility = Visibility.Hidden;
                 ResetViewer();
                 textBoxOutput.Visibility = Visibility.Visible;
                 StringBuilder sb = new StringBuilder();
@@ -192,6 +210,74 @@
             }
         }
 
+
+        /// <summary>
+		/// Displays the contents of a FileRecord in the ImageBox
+		/// </summary>
+		/// <param name="selectedRecord">FileRecord to display</param>
+		private void DisplayImage(FileRecord selectedRecord)
+        {
+            byte[] buffer = selectedRecord.ReadData(ggpkPath);
+            imageOutput.Visibility = System.Windows.Visibility.Visible;
+
+            using (MemoryStream ms = new MemoryStream(buffer))
+            {
+                BitmapImage bmp = new BitmapImage();
+                bmp.BeginInit();
+                bmp.CacheOption = BitmapCacheOption.OnLoad;
+                bmp.StreamSource = ms;
+                bmp.EndInit();
+                imageOutput.Source = bmp;
+            }
+        }
+        /// <summary>
+        /// Displays the contents of a FileRecord in the ImageBox (DDS Texture mode)
+        /// </summary>
+        /// <param name="selectedRecord">FileRecord to display</param>
+        private void DisplayDDS(FileRecord selectedRecord)
+        {
+            byte[] buffer = selectedRecord.ReadData(ggpkPath);
+            imageOutput.Visibility = System.Windows.Visibility.Visible;
+            Console.WriteLine("DisplayDDS :" + ggpkPath);
+
+
+            DDSImage dds = new DDSImage(buffer);
+
+            Console.WriteLine("DisplayDDS DDSImage ok");
+
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+
+                Console.WriteLine("DisplayDDS MemoryStream ok");
+
+
+                dds.images[0].Save(ms, ImageFormat.Png);
+
+                BitmapImage bmp = new BitmapImage();
+                bmp.BeginInit();
+                bmp.CacheOption = BitmapCacheOption.OnLoad;
+                bmp.StreamSource = ms;
+                bmp.EndInit();
+                imageOutput.Source = bmp;
+
+                Console.WriteLine("DisplayDDS MemoryStream end");
+            }
+        }
+        /// <summary>
+		/// Displays the contents of a FileRecord in the DatViewer
+		/// </summary>
+		/// <param name="selectedRecord">FileRecord to display</param>
+		private void DisplayDat(FileRecord selectedRecord)
+        {
+            byte[] data = selectedRecord.ReadData(ggpkPath);
+            datViewerOutput.Visibility = System.Windows.Visibility.Visible;
+
+            using (MemoryStream ms = new MemoryStream(data))
+            {
+                datViewerOutput.Reset(selectedRecord.Name, ms);
+            }
+        }
         /// <summary>
         /// Displays the contents of a FileRecord in the RichTextBox
         /// </summary>

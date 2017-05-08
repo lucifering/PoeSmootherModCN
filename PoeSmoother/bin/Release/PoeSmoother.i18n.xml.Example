@@ -66,6 +66,12 @@
   <Resource Tag="Error_Caption">
     <Text>Error</Text>
   </Resource>
+  <Resource Tag="Error_DDS_Unsupported">
+    <Text>Not DDS format! __BREAK__File Content:</Text>
+  </Resource>
+  <Resource Tag="Error_DDS_Unsupported_NUM">
+    <Text>Not DDS format!__BREAK__Magic NUM:</Text>
+  </Resource>
   <Resource Tag="Error_Read_Directory_Tree">
     <Text>Failed to read directory tree: {0}</Text>
   </Resource>

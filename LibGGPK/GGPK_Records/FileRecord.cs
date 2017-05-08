@@ -233,6 +233,7 @@
 			{".clt", DataFormat.Unicode},
             {".csv", DataFormat.Ascii},
             {".dat", DataFormat.Dat},
+          
             {".dct", DataFormat.Unicode}, // Decals
 			{".dds", DataFormat.TextureDDS},
             {".ddt", DataFormat.Unicode}, // Doodads

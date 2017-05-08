@@ -4,6 +4,7 @@
 		xmlns:Properties="clr-namespace:PoeSmoother.Properties"
 		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PoeSmoother"         
         x:Name="PoeSmoother" mc:Ignorable="d"
 		x:Class="PoeSmoother.MainWindow"
 
@@ -156,8 +157,11 @@
                 <ColumnDefinition Width="Auto" MinWidth="350" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-
-            <TreeView Grid.Column="0" x:Name="treeView" SelectedItemChanged="treeView_SelectedItemChanged" Background="{x:Null}" Foreground="{x:Null}" BorderThickness="0" FontFamily="Verdana" FontSize="14" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollBarVisibility="Hidden" BorderBrush="{x:Null}" VerticalAlignment="Stretch" Margin="0,12,0,0" d:IsHidden="True">
+           
+                <TreeView Grid.Column="0" x:Name="treeView" SelectedItemChanged="treeView_SelectedItemChanged" Background="{x:Null}"
+                          
+                          Foreground="{x:Null}" BorderThickness="0" FontFamily="Verdana" FontSize="14" ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                          ScrollViewer.HorizontalScrollBarVisibility="Hidden" BorderBrush="{x:Null}" VerticalAlignment="Stretch" Margin="0,12,0,0" d:IsHidden="True">
 
                 <TreeView.Resources>
                     <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}"
@@ -177,17 +181,19 @@
                     </ContextMenu>
                 </TreeView.ContextMenu>
             </TreeView>
-
-            <GridSplitter Grid.Column="0"  x:Name="gridSplitter"  Width="5" Background="Black" Margin="0" BorderThickness="1,0" d:IsHidden="True" />
+              
+                    <GridSplitter Grid.Column="0"  x:Name="gridSplitter"  Width="5" Background="Black" Margin="0" BorderThickness="1,0" d:IsHidden="True" />
 
             <Grid Grid.Column="1" Margin="0" d:IsHidden="True"  x:Name="GridRow">
                 <Grid.RowDefinitions  >
                     <RowDefinition Height="*" />
                     <RowDefinition Height="auto" />
                 </Grid.RowDefinitions>
-
+                <local:DatViewer x:Name="datViewerOutput" Visibility="Hidden"/>
                 <TextBox  x:Name="textBoxOutput" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" FontFamily="Consolas" FontSize="14" IsReadOnly="True" Background="{x:Null}" BorderThickness="0" Foreground="#FFD5D5D5" SelectionBrush="#B25378C7" ScrollViewer.VerticalScrollBarVisibility="Hidden" Margin="20,31,0,0" BorderBrush="{x:Null}" />
                 <RichTextBox Grid.Row="0" x:Name="richTextOutput" VerticalScrollBarVisibility="Auto" IsReadOnly="True" BorderThickness="0" Background="{x:Null}" FontFamily="Consolas" FontSize="14" Foreground="#FFD5D5D5" ScrollViewer.VerticalScrollBarVisibility="Hidden" Visibility="Hidden" Margin="20" BorderBrush="{x:Null}" />
+                <Image  x:Name="imageOutput" Stretch="None" Visibility="Hidden" />
+                
                 <Button x:Name="min" Grid.Row="0" Style="{StaticResource ButtonStyle}" BorderBrush="Transparent" Focusable="False" Height="30" Margin="0,17,40,0" Width="30" Click="TriggerMinimize" VerticalAlignment="Top" HorizontalAlignment="Right" BorderThickness="0" Foreground="{x:Null}" >
                     <Button.Background>
                         <ImageBrush ImageSource="images/min.png" />
@@ -216,7 +222,7 @@
             <Grid.Effect>
                 <DropShadowEffect Direction="160" ShadowDepth="0" BlurRadius="15" />
             </Grid.Effect>
-            <TabControl x:Name="tabControl" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="Black" BorderThickness="2,0,0,2" FontFamily="Consolas" Margin="0,3,0,0" Height="530" Width="244" VerticalAlignment="Top" HorizontalAlignment="Right">
+            <TabControl x:Name="tabControl" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="Black" BorderThickness="2,0,0,2" FontFamily="Consolas" Margin="0,3,0,0" Height="auto" Width="244" VerticalAlignment="Top" HorizontalAlignment="Right">
                 <TabItem x:Name="Effects" Header="特效" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFDFCF99" BorderThickness="0,0,2,0" FontFamily="Consolas" FontSize="14.667" Height="24" Width="90" Margin="0" VerticalAlignment="Bottom" d:LayoutOverrides="Height" HorizontalAlignment="Left">
                     <ScrollViewer >
                     <StackPanel Margin="0" HorizontalAlignment="Left" x:Name="panelShowEffect" >

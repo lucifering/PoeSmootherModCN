@@ -263,6 +263,26 @@ namespace PoeSmoother.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Not DDS format! 
+        ///File Content: 的本地化字符串。
+        /// </summary>
+        public static string Error_DDS_Unsupported {
+            get {
+                return ResourceManager.GetString("Error_DDS_Unsupported", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Not DDS format!
+        ///Magic NUM: 的本地化字符串。
+        /// </summary>
+        public static string Error_DDS_Unsupported_NUM {
+            get {
+                return ResourceManager.GetString("Error_DDS_Unsupported_NUM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Failed to read directory tree: {0} 的本地化字符串。
         /// </summary>
         public static string Error_Read_Directory_Tree {

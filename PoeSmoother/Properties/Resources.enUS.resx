@@ -346,4 +346,12 @@ Details: {0}</value>
   <data name="MainWindow_Window_Tab_Skills_Header" xml:space="preserve">
     <value>Skills</value>
   </data>
+  <data name="Error_DDS_Unsupported" xml:space="preserve">
+    <value>Not DDS format! 
+File Content:</value>
+  </data>
+  <data name="Error_DDS_Unsupported_NUM" xml:space="preserve">
+    <value>Not DDS format!
+Magic NUM:</value>
+  </data>
 </root>

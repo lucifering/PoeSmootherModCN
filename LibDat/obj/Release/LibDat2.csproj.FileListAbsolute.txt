@@ -1,0 +1,9 @@
+F:\poe\VisualGGPK\VG2Pro\LibDat\bin\Release\LibDat.dll
+F:\poe\VisualGGPK\VG2Pro\LibDat\bin\Release\LibDat.pdb
+F:\poe\VisualGGPK\VG2Pro\LibDat\obj\Release\LibDat.dll
+F:\poe\VisualGGPK\VG2Pro\LibDat\obj\Release\LibDat.pdb
+F:\dotNet\PoeSmootherModCN\LibDat\bin\Release\LibDat.dll
+F:\dotNet\PoeSmootherModCN\LibDat\bin\Release\LibDat.pdb
+F:\dotNet\PoeSmootherModCN\LibDat\obj\Release\LibDat2.csprojResolveAssemblyReference.cache
+F:\dotNet\PoeSmootherModCN\LibDat\obj\Release\LibDat.dll
+F:\dotNet\PoeSmootherModCN\LibDat\obj\Release\LibDat.pdb

@@ -18,3 +18,9 @@ F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmootherMOD.csproj.Gen
 F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\Newtonsoft.Json.dll
 F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\Newtonsoft.Json.xml
 F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\PoeSmoother.Properties.Resources.enUS.resources
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\LibGGPK.pdb
+F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\DatViewer.g.cs
+F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\LibDat.dll
+F:\dotNet\PoeSmootherModCN\PoeSmoother\bin\Release\LibDat.pdb
+F:\dotNet\PoeSmootherModCN\PoeSmoother\obj\x86\Release\DatViewer.baml

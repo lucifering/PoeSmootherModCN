@@ -346,4 +346,12 @@
   <data name="MainWindow_Window_Tab_Skills_Header" xml:space="preserve">
     <value>技能</value>
   </data>
+  <data name="Error_DDS_Unsupported" xml:space="preserve">
+    <value>不是DDS文件!
+文件内容:</value>
+  </data>
+  <data name="Error_DDS_Unsupported_NUM" xml:space="preserve">
+    <value>不是DDS文件! 
+Magic NUM:</value>
+  </data>
 </root>
